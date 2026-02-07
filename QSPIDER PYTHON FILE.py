@@ -28,10 +28,6 @@
 # 7. WAPT  extarct last number from value:
 # i=(input("enter number: "))
 # print(f"the last value of {i} is  : {i[-1]}")
-q={'a':10,'b':20}
-print(q['a'],q.keys(),q.values())
-q['c']=30
-print(q)
 
 
 
