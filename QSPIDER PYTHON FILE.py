@@ -57,3 +57,11 @@ if 'a' <= o <= 'z':
     print(f"{o} is lower case")
 else:
     print(f"{o} is not lower case")
+
+#13. check the entered char is upper case or not?
+o = input("enter a char: ")
+
+if 'A' <= o <= 'Z':
+    print(f"{o} is lower case")
+else:
+    print(f"{o} is not lower case")
