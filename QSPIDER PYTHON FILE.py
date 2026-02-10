@@ -51,17 +51,22 @@
 #     print(f" the square of '{n}' is  {n**2}")
 
 #12. check the entered char is lower case or not?
-o = input("enter a char: ")
-
-if 'a' <= o <= 'z':
-    print(f"{o} is lower case")
-else:
-    print(f"{o} is not lower case")
+# o = input("enter a char: ")
+#
+# if 'a' <= o <= 'z':
+#     print(f"{o} is lower case")
+# else:
+#     print(f"{o} is not lower case")
 
 #13. check the entered char is upper case or not?
-o = input("enter a char: ")
+# o = input("enter a char: ")
+#
+# if 'A' <= o <= 'Z':
+#     print(f"{o} is lower case")
+# else:
+#     print(f"{o} is not lower case")
 
-if 'A' <= o <= 'Z':
-    print(f"{o} is lower case")
-else:
-    print(f"{o} is not lower case")
+# 14. WAP to find enter number is 3 digit number or not
+z=int(input("enter a number"))
+if 99<=z<=999:
+     print(f"the enter  number is '{z}' is 3 digit")
