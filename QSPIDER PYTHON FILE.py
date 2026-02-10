@@ -107,3 +107,7 @@ if type(i) in [int,float,complex]:
     print(f"enter the values is '{i}' SVD")
 else:
     print(f"enter the values is '{i}' MVD")
+
+# to check the given int is positive number or negative number
+# to check the given list has middle value or not? : use len() by even or odd
+# consider a tuple consists of only two values and check the tuple is homogenius or hetrogeinus
