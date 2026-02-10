@@ -67,6 +67,14 @@
 #     print(f"{o} is not lower case")
 
 # 14. WAP to find enter number is 3 digit number or not
-z=int(input("enter a number"))
-if 99<=z<=999:
-     print(f"the enter  number is '{z}' is 3 digit")
+
+# z=int(input("enter a number: "))
+# if 99<=z<=999:
+#      print(f"the enter  number is '{z}' is 3 digit")
+
+# 15. enter number float number or not: note , if want check the type of data means,use TYPE()
+x=eval(input("enter a value: "))
+if type(x)==float:
+    print(f"the enter value'{x}' is float value")
+else:
+    print(f" '{x}' not a float value ")
