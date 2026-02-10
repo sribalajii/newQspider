@@ -80,8 +80,16 @@
 #     print(f" '{x}' not a float value ")
 #
 # 16. WAPT find enter number is even number or  odd
-y=int(input("enter a number: "))
-if y%2==0:
-    print(f"the entered number '{y}' is even number")
+# y=int(input("enter a number: "))
+# if y%2==0:
+#     print(f"the entered number '{y}' is even number")
+# else:
+#     print(f"the enter number '{y}' is odd number")
+
+#17. WAP to check entered number is palainrom or not:
+r=input("enter a values: ")
+if r[::]==r[::-1]:
+    print(f"enter name '{r}' is palairom")
 else:
-    print(f"the enter number '{y}' is odd number")
+    print(f"'{r}'not a palainrom ")
+
