@@ -101,13 +101,30 @@
 #     print(f" the enter char '{s}' not vowel")
 
 #19. WAPT the enter value is single value datatype or multi value data type
+#
+# i=eval(input("enter a values: "))
+# if type(i) in [int,float,complex]:
+#     print(f"enter the values is '{i}' SVD")
+# else:
+#     print(f"enter the values is '{i}' MVD")
 
-i=eval(input("enter a values: "))
-if type(i) in [int,float,complex]:
-    print(f"enter the values is '{i}' SVD")
-else:
-    print(f"enter the values is '{i}' MVD")
+#20. WAP to check the given int is positive number or negative number
+# a=int(input("enter a number: "))
+# if 0<=a:
+#     print(f"the given '{a}' is positive ")
+# else:
+#     print(f"the given '{a}' is negative ")
 
-# to check the given int is positive number or negative number
-# to check the given list has middle value or not? : use len() by even or odd
-# consider a tuple consists of only two values and check the tuple is homogenius or hetrogeinus
+#21. WAP to check the given list has middle value or not? : use len() by even or odd
+# b=eval(input("enter a value: "))
+# if len(b)%2==1:
+#     print(f"the given value has '{b}' middle value ")
+# else:
+#     print(f"the given value it's doesn't have '{b}' middle value ")
+
+#22. consider a tuple consists of only two values and check the tuple is homogenius or hetrogeinus
+# c=eval(input("enter a tuple of values: "))
+# if type(c[0])==type(c[1]):
+#     print(f"the tuple is '{c}' homogenius")
+# else:
+#     print(f"the '{c}' tuple is both homo and hetro genius")
