@@ -86,10 +86,19 @@
 # else:
 #     print(f"the enter number '{y}' is odd number")
 
-#17. WAP to check entered number is palainrom or not:
-r=input("enter a values: ")
-if r[::]==r[::-1]:
-    print(f"enter name '{r}' is palairom")
+#17. WAP to check entered number is palaindrome or not:
+# r=input("enter a values: ")
+# if r[::]==r[::-1]:
+#     print(f"enter name '{r}' is palairom")
+# else:
+#     print(f"'{r}'not a palainrom ")
+
+#18.  given char is vowel or not:
+s=input("enter a char: ")
+if s in ['a','e','i','o','u','A','E','I','O','U']:
+    print(f" the enter char '{s}' is vowel")
 else:
-    print(f"'{r}'not a palainrom ")
+    print(f" the enter char '{s}' not vowel")
+
+
 
