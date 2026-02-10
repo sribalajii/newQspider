@@ -72,9 +72,16 @@
 # if 99<=z<=999:
 #      print(f"the enter  number is '{z}' is 3 digit")
 
-# 15. enter number float number or not: note , if want check the type of data means,use TYPE()
-x=eval(input("enter a value: "))
-if type(x)==float:
-    print(f"the enter value'{x}' is float value")
+# 15.WAPT find enter number float number or not: note , if want check the type of data means,use TYPE()
+# x=eval(input("enter a value: "))
+# if type(x)==float:
+#     print(f"the enter value'{x}' is float value")
+# else:
+#     print(f" '{x}' not a float value ")
+#
+# 16. WAPT find enter number is even number or  odd
+y=int(input("enter a number: "))
+if y%2==0:
+    print(f"the entered number '{y}' is even number")
 else:
-    print(f" '{x}' not a float value ")
+    print(f"the enter number '{y}' is odd number")
