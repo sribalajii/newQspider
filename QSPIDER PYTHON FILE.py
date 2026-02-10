@@ -89,16 +89,21 @@
 #17. WAP to check entered number is palaindrome or not:
 # r=input("enter a values: ")
 # if r[::]==r[::-1]:
-#     print(f"enter name '{r}' is palairom")
+#     print(f"enter name '{r}' is palaindrome")
 # else:
-#     print(f"'{r}'not a palainrom ")
+#     print(f"'{r}'not a palaindrome ")
 
-#18.  given char is vowel or not:
-s=input("enter a char: ")
-if s in ['a','e','i','o','u','A','E','I','O','U']:
-    print(f" the enter char '{s}' is vowel")
+#18. WAPT check thee given char is vowel or not:
+# s=input("enter a char: ")
+# if s in ['a','e','i','o','u','A','E','I','O','U']:
+#     print(f" the enter char '{s}' is vowel")
+# else:
+#     print(f" the enter char '{s}' not vowel")
+
+#19. WAPT the enter value is single value datatype or multi value data type
+
+i=eval(input("enter a values: "))
+if type(i) in [int,float,complex]:
+    print(f"enter the values is '{i}' SVD")
 else:
-    print(f" the enter char '{s}' not vowel")
-
-
-
+    print(f"enter the values is '{i}' MVD")
