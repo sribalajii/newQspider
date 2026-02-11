@@ -118,7 +118,7 @@
 #21. WAP to check the given list has middle value or not? : use len() by even or odd
 # b=eval(input("enter a value: "))
 # if len(b)%2==1:
-#     print(f"the given value has '{b}' middle value ")
+#     print(f"the given value has '{b}' middle value ")j
 # else:
 #     print(f"the given value it's doesn't have '{b}' middle value ")
 
@@ -128,3 +128,13 @@
 #     print(f"the tuple is '{c}' homogenius")
 # else:
 #     print(f"the '{c}' tuple is both homo and hetro genius")
+
+# to check the relationship between two numbers:
+n1=eval(input("enter value for n1: "))
+n2=eval(input("enter value for n2: "))
+if n1==n2:
+    print(f"the relation between {n1} and {n2} are equal")
+elif n1>n2:
+    print(f"the relation between {n1} and {n2} are n1 is greater  than n2")
+elif n1<n2:
+    print(f"the relation between {n1} and {n2} are n1 is less than n2 ")
