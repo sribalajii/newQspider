@@ -72,6 +72,8 @@
 # if 99<=z<=999:
 #      print(f"the enter  number is '{z}' is 3 digit")
 
+# *************************************************************************
+
 # 15.WAPT find enter number float number or not: note , if want check the type of data means,use TYPE()
 # x=eval(input("enter a value: "))
 # if type(x)==float:
@@ -129,12 +131,27 @@
 # else:
 #     print(f"the '{c}' tuple is both homo and hetro genius")
 
-# to check the relationship between two numbers:
-n1=eval(input("enter value for n1: "))
-n2=eval(input("enter value for n2: "))
-if n1==n2:
-    print(f"the relation between {n1} and {n2} are equal")
-elif n1>n2:
-    print(f"the relation between {n1} and {n2} are n1 is greater  than n2")
-elif n1<n2:
-    print(f"the relation between {n1} and {n2} are n1 is less than n2 ")
+# **********************************[ELIF-CONDITION]********************************************
+
+#23. WAP to check the relationship between two numbers:
+# n1=eval(input("enter value for n1: "))
+# n2=eval(input("enter value for n2: "))
+# if n1==n2:
+#     print(f"the relation between {n1} and {n2} are equal")
+# elif n1>n2:
+#     print(f"the relation between {n1} and {n2} are n1 is greater  than n2")
+# elif n1<n2:
+#     print(f"the relation between {n1} and {n2} are n1 is less than n2 ")
+
+#24.  two corodinate thats x and y and check which coorander the data point are present
+x=eval(input("enter a value for x: "))
+y=eval(input("enter a value for y: "))
+if x>=0  and y>=0:
+    print(f"the {x} and {y} are present in first ")
+elif x>=0 and y<0:
+    print(f"the {x} and {y} are present in second ")
+elif x<0 and y<0:
+    print(f"the {x} and {y} are present in third ")
+else:
+    print(f"the {x} and {y} are present in fourth ")
+
