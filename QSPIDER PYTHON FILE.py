@@ -166,13 +166,57 @@
 # else:
 #     print(f"{u} is more than three digit")
 
-# enter char is lower or upper, number ?
-n=input("enter a value: ")
-if 'A'<=n<='Z':
-    print(f"the enter value '{n}' is U.char")
-elif 'a'<=n<='z':
-    print(f"the enter value '{n}' is L.char")
-elif '0'<=n<='9':
-    print(f"{n} its a digit")
-else:
-    print(f"{n} it's special char")
+#26. WAPT check the enter char is lower or upper, number ?
+# n=input("enter a value: ")
+# if 'A'<=n<='Z':
+#     print(f"the enter value '{n}' is U.char")
+# elif 'a'<=n<='z':
+#     print(f"the enter value '{n}' is L.char")
+# elif '0'<=n<='9':
+#     print(f"{n} its a digit")
+# else:
+#     print(f"{n} it's special char")
+
+#27. WAPT predict the students results , based otained %
+#  if score above 60% first class,
+# if score above 85% distinct ,
+# if score less than 60% 2nd class,
+# if score below 35% fail
+
+# n=eval(input("enter the score :"))
+# if n>=85:
+#     print(f"your score is '{n}' , so your are distinct student!")
+# elif 61<=n<=85:
+#     print(f"your score is '{n}' , so your are first class student!")
+# elif 35<=n<=60:
+#     print(f"your score is '{n}' , so your are second class student!")
+# elif n<35:
+#     print(f"your score is '{n}' , so your are failed student!")
+#
+#
+# n=eval(input("enter the score: "))
+# if 85<=n<=100:
+#     print(f"your score is '{n}' , so your are distinct student!")
+# elif 60<=n<=84:
+#     print(f"your score is '{n}' , so your are first class student!")
+# elif 35<=n<=59:
+#     print(f"your score is '{n}' , so your are second class student!")
+# elif n<35:
+#     print(f"your score is '{n}' , so your are failed student!")
+# else:
+#     print(f"your enter wrong values:{n}")
+
+#  1st greater number amoung the four number
+# a=int(input("enter a first value: "))
+# b=int(input("enter a second  value: "))
+# c=int(input("enter a third value: "))
+# d=int(input("enter a fourth value: "))
+# if a>b and a>c and a>d:
+#     print(f"a is greatest number here {a}")
+# elif b>c and b>d:
+#     print(f"b is greatest number here {b}")
+# elif c>d:
+#     print(f"c is greatest number here {c}")
+# else:
+#     print(f"d is greatest number here {d}")
+
