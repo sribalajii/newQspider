@@ -144,14 +144,24 @@
 #     print(f"the relation between {n1} and {n2} are n1 is less than n2 ")
 
 #24.  two corodinate thats x and y and check which coorander the data point are present
-x=eval(input("enter a value for x: "))
-y=eval(input("enter a value for y: "))
-if x>=0  and y>=0:
-    print(f"the {x} and {y} are present in first ")
-elif x>=0 and y<0:
-    print(f"the {x} and {y} are present in second ")
-elif x<0 and y<0:
-    print(f"the {x} and {y} are present in third ")
-else:
-    print(f"the {x} and {y} are present in fourth ")
+# x=eval(input("enter a value for x: "))
+# y=eval(input("enter a value for y: "))
+# if x>=0  and y>=0:
+#     print(f"the {x} and {y} are present in first ")
+# elif x>=0 and y<0:
+#     print(f"the {x} and {y} are present in second ")
+# elif x<0 and y<0:
+#     print(f"the {x} and {y} are present in third ")
+# else:
+#     print(f"the {x} and {y} are present in fourth ")
 
+#25. WAPT check the enter number is single , double, triple, or more than three digit number:
+# u=eval(input("enter a number: "))
+# if 0<=u<=9:
+#     print(f"{u} is single digit")
+# elif 10<=u<=99:
+#     print(f"{u} is double digit")
+# elif 100<=u<=999:
+#     print(f"{u} is three digit")
+# else:
+#     print(f"{u} is more than three digit")
