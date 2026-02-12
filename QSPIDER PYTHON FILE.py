@@ -165,3 +165,14 @@
 #     print(f"{u} is three digit")
 # else:
 #     print(f"{u} is more than three digit")
+
+# enter char is lower or upper, number ?
+n=input("enter a value: ")
+if 'A'<=n<='Z':
+    print(f"the enter value '{n}' is U.char")
+elif 'a'<=n<='z':
+    print(f"the enter value '{n}' is L.char")
+elif '0'<=n<='9':
+    print(f"{n} its a digit")
+else:
+    print(f"{n} it's special char")
