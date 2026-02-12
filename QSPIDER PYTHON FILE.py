@@ -3,6 +3,7 @@
 # b=int(input("enter the number : "))
 # print(a+b)
 # print(f"the total value is {a+b}")
+from importlib.metadata import pass_none
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number : "))
@@ -29,7 +30,7 @@
 # 7. WAPT  extarct last number from value:
 # i=(input("enter number: "))
 # print(f"the last value of {i} is  : {i[-1]}")
-
+# **************************************[IF]********************************************************
 # 8. WAPT simple if program
 # j=int(input("enter a number : "))
 # if j%2==0:
@@ -72,7 +73,7 @@
 # if 99<=z<=999:
 #      print(f"the enter  number is '{z}' is 3 digit")
 
-# *************************************************************************
+# *********************************[IF-ELSE]****************************************
 
 # 15.WAPT find enter number float number or not: note , if want check the type of data means,use TYPE()
 # x=eval(input("enter a value: "))
@@ -220,3 +221,4 @@
 # else:
 #     print(f"d is greatest number here {d}")
 
+# ***********************************[NESTED IF]************************************************
