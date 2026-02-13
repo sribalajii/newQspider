@@ -254,12 +254,25 @@ from importlib.metadata import pass_none
 # else:
 #     print("wrong user name")
 
-# WAP to print reverse of the string only if it's starting with U.alphabet adn ending digit:
-a=eval(input("enter the string: "))
-if "A"<=a[0]<="Z":
-    if "0"<=a[-1]<='9':
-        print(a[::-1])
-    else:
-        print(f"enter string '{a}' last value is not end with number")
+# 33. WAP to print reverse of the string only if it's starting with U.alphabet adn ending digit:
+# a=eval(input("enter the string: "))
+# if "A"<=a[0]<="Z":
+#     if "0"<=a[-1]<='9':
+#         print(a[::-1])
+#     else:
+#         print(f"enter string '{a}' last value is not end with number")
+# else:
+#     print(f"the entered string '{a}' is not start with U.alphabet char")
+
+# 34.find the greater number amoung the three number:
+a=eval(input("enter a number n1: "))
+b=eval(input("enter a number n2: "))
+c=eval(input("enter a number n3: "))
+if a>b:
+    if a>c:
+        print("a is greater")
 else:
-    print(f"the entered string '{a}' is not start with U.alphabet char")
+    if b>c:
+        print("b is greater")
+    else:
+        print("c is greater ")
