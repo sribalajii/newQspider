@@ -244,12 +244,22 @@ from importlib.metadata import pass_none
 #     print("wrong user name")
 
 #32. proper logic for login page
-user=input("enter your  user name: ")
-if user=="balaji":
-    password = input("enter your password:")
-    if password=="1234":
-        print("your entering successfully")
+# user=input("enter your  user name: ")
+# if user=="balaji":
+#     password = input("enter your password:")
+#     if password=="1234":
+#         print("your entering successfully")
+#     else:
+#         print("enter password is wrong")
+# else:
+#     print("wrong user name")
+
+# WAP to print reverse of the string only if it's starting with U.alphabet adn ending digit:
+a=eval(input("enter the string: "))
+if "A"<=a[0]<="Z":
+    if "0"<=a[-1]<='9':
+        print(a[::-1])
     else:
-        print("enter password is wrong")
+        print(f"enter string '{a}' last value is not end with number")
 else:
-    print("wrong user name")
+    print(f"the entered string '{a}' is not start with U.alphabet char")
