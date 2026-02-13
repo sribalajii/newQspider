@@ -223,11 +223,22 @@ from importlib.metadata import pass_none
 
 # ***********************************[NESTED IF]************************************************
 #30. WAP to check the given char is vowel or consentet
-n=input("enter the value: ")
-if 'a'<=n<='z' or 'A'<=n<='Z':
-    if n in "aieouAIEOU":
-        print(f"'{n}' is vowels")
+# n=input("enter the value: ")
+# if 'a'<=n<='z' or 'A'<=n<='Z':
+#     if n in "aieouAIEOU":
+#         print(f"'{n}' is vowels")
+#     else:
+#         print(f"'{n}' is not an vowels")
+# else:
+#     print(f"'{n}' is not an alpha")
+
+# 31. WAP to login into twitter by entering proper user name and password:
+user=input("enter your  user name: ")
+password=input("enter your password:")
+if user=="balaji":
+    if password=="1234":
+        print("your entering successfully")
     else:
-        print(f"'{n}' is not an vowels")
+        print("enter password is wrong")
 else:
-    print(f"'{n}' is not an alpha")
+    print("wrong user name")
