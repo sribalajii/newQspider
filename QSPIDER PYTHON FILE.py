@@ -233,9 +233,20 @@ from importlib.metadata import pass_none
 #     print(f"'{n}' is not an alpha")
 
 # 31. WAP to login into twitter by entering proper user name and password:
+# user=input("enter your  user name: ")
+# password=input("enter your password:")
+# if user=="balaji":
+#     if password=="1234":
+#         print("your entering successfully")
+#     else:
+#         print("enter password is wrong")
+# else:
+#     print("wrong user name")
+
+#32. proper logic for login page
 user=input("enter your  user name: ")
-password=input("enter your password:")
 if user=="balaji":
+    password = input("enter your password:")
     if password=="1234":
         print("your entering successfully")
     else:
