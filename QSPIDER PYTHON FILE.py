@@ -264,10 +264,10 @@ from importlib.metadata import pass_none
 # else:
 #     print(f"the entered string '{a}' is not start with U.alphabet char")
 
-# 34.find the greater number amoung the three number:
+# 34. WAP find the greater number amoung the three number:
 a=eval(input("enter a number n1: "))
-b=eval(input("enter a number n2: "))
-c=eval(input("enter a number n3: "))
+b=eval(input("enter b number n2: "))
+c=eval(input("enter c number n3: "))
 if a>b:
     if a>c:
         print("a is greater")
