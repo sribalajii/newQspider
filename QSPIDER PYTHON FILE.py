@@ -207,7 +207,7 @@ from importlib.metadata import pass_none
 # else:
 #     print(f"your enter wrong values:{n}")
 
-#  1st greater number amoung the four number
+# 28 1st greater number amoung the four number
 # a=int(input("enter a first value: "))
 # b=int(input("enter a second  value: "))
 # c=int(input("enter a third value: "))
@@ -222,3 +222,12 @@ from importlib.metadata import pass_none
 #     print(f"d is greatest number here {d}")
 
 # ***********************************[NESTED IF]************************************************
+#30. WAP to check the given char is vowel or consentet
+n=input("enter the value: ")
+if 'a'<=n<='z' or 'A'<=n<='Z':
+    if n in "aieouAIEOU":
+        print(f"'{n}' is vowels")
+    else:
+        print(f"'{n}' is not an vowels")
+else:
+    print(f"'{n}' is not an alpha")
