@@ -3,7 +3,7 @@
 # b=int(input("enter the number : "))
 # print(a+b)
 # print(f"the total value is {a+b}")
-from importlib.metadata import pass_none
+
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number : "))
@@ -277,25 +277,84 @@ from importlib.metadata import pass_none
 #     else:
 #         print("c is greater ")
 #35. WAP to find smaller number in 3 number
-a=eval(input("enter the a:"))
-b=eval(input("enter the b: "))
-c=eval(input("enter the c: "))
-if a<b and a<c:
-    print(f"a is smaller number '{a}'")
-else:
-    if b<c:
-        print(f" b is smaller here '{b}'")
-    else:
-        print(f"c is smaller '{c}'")
-#  2nd large number amoung 4 number
+# a=eval(input("enter the a:"))
+# b=eval(input("enter the b: "))
+# c=eval(input("enter the c: "))
+# if a<b and a<c:
+#     print(f"a is smaller number '{a}'")
+# else:
+#     if b<c:
+#         print(f" b is smaller here '{b}'")
+#     else:
+#         print(f"c is smaller '{c}'")
+# #36. WAPT check 2nd large number amoung 4 number
 # a=int(input("enter a number :"))
 # b=int(input(" enter b number: "))
 # c=int(input(" enter c number: "))
-# d=
-# if a>b:
-#     if b>c:
-#         print("b is 2nd large number")
+# d=int(input(" enter d number: "))
+# if a>b and a>c and a>d:
+#     if b>c and b>d:
+#         print("b is greater")
+#     if c>d:
+#         print("c is greater")
 #     else:
-#         print("c is 2nd large number")
-# else:
-#     print(" a is 2nd larger number")
+#         print(" d is greater")
+# elif b>a and b>c and b>d:
+#     if c>d:
+#         print("c is greater ")
+#     else:
+#         print("d is greater")
+# elif c>a and c>b and c>d:
+#     if d>c:
+#         print("c is greater ")
+#     else:
+#         print("d is greater ")
+
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+d = int(input("Enter d: "))
+
+# find largest first
+if a>b and a>c and a>d:
+    # now find 2nd largest among b,c,d
+    if b>c and b>d:
+        print("Second largest is:", b)
+    else:
+        if c>d:
+            print("Second largest is:", c)
+        else:
+            print("Second largest is:", d)
+
+else:
+    if b>a and b>c and b>d:
+        # largest is b → check a,c,d
+        if a>c and a>d:
+            print("Second largest is:", a)
+        else:
+            if c>d:
+                print("Second largest is:", c)
+            else:
+                print("Second largest is:", d)
+
+    else:
+        if c>a and c>b and c>d:
+            # largest is c → check a,b,d
+            if a>b and a>d:
+                print("Second largest is:", a)
+            else:
+                if b>d:
+                    print("Second largest is:", b)
+                else:
+                    print("Second largest is:", d)
+
+        else:
+            # largest is d → check a,b,c
+            if a>b and a>c:
+                print("Second largest is:", a)
+            else:
+                if b>c:
+                    print("Second largest is:", b)
+                else:
+                    print("Second largest is:", c)
