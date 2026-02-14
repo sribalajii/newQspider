@@ -265,14 +265,37 @@ from importlib.metadata import pass_none
 #     print(f"the entered string '{a}' is not start with U.alphabet char")
 
 # 34. WAP find the greater number amoung the three number:
-a=eval(input("enter a number n1: "))
-b=eval(input("enter b number n2: "))
-c=eval(input("enter c number n3: "))
-if a>b:
-    if a>c:
-        print("a is greater")
+# a=eval(input("enter a number n1: "))
+# b=eval(input("enter b number n2: "))
+# c=eval(input("enter c number n3: "))
+# if a>b:
+#     if a>c:
+#         print("a is greater")
+# else:
+#     if b>c:
+#         print("b is greater")
+#     else:
+#         print("c is greater ")
+#35. WAP to find smaller number in 3 number
+a=eval(input("enter the a:"))
+b=eval(input("enter the b: "))
+c=eval(input("enter the c: "))
+if a<b and a<c:
+    print(f"a is smaller number '{a}'")
 else:
-    if b>c:
-        print("b is greater")
+    if b<c:
+        print(f" b is smaller here '{b}'")
     else:
-        print("c is greater ")
+        print(f"c is smaller '{c}'")
+#  2nd large number amoung 4 number
+# a=int(input("enter a number :"))
+# b=int(input(" enter b number: "))
+# c=int(input(" enter c number: "))
+# d=
+# if a>b:
+#     if b>c:
+#         print("b is 2nd large number")
+#     else:
+#         print("c is 2nd large number")
+# else:
+#     print(" a is 2nd larger number")
