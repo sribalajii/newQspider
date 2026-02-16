@@ -367,7 +367,7 @@
 # print({'a':12}=={12:'a'})
 # }
 # *************************************[LOOPING STATEMENT]************************************************
-#  WHILE LOOP: CONTINUE GIVE PRINT OUTPUT AGAINA ND AGIN UNTIL THE CONDITION GET FAILED:
+#  WHILE LOOP: CONTINUE GIVE PRINT OUTPUT AGAIN ND AGAIN UNTIL THE CONDITION GET FAILED:
 # 37. WAP
 i=1
 while i<=10:
