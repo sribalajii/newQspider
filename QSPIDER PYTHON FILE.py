@@ -310,51 +310,66 @@
 #     else:
 #         print("d is greater ")
 
-
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
-c = int(input("Enter c: "))
-d = int(input("Enter d: "))
-
-# find largest first
-if a>b and a>c and a>d:
-    # now find 2nd largest among b,c,d
-    if b>c and b>d:
-        print("Second largest is:", b)
-    else:
-        if c>d:
-            print("Second largest is:", c)
-        else:
-            print("Second largest is:", d)
-
-else:
-    if b>a and b>c and b>d:
-        # largest is b → check a,c,d
-        if a>c and a>d:
-            print("Second largest is:", a)
-        else:
-            if c>d:
-                print("Second largest is:", c)
-            else:
-                print("Second largest is:", d)
-
-    else:
-        if c>a and c>b and c>d:
-            # largest is c → check a,b,d
-            if a>b and a>d:
-                print("Second largest is:", a)
-            else:
-                if b>d:
-                    print("Second largest is:", b)
-                else:
-                    print("Second largest is:", d)
-
-        else:
-            # largest is d → check a,b,c
-            if a>b and a>c:
-                print("Second largest is:", a)
-            else:
-                if b>c:
-                    print("Second largest is:", b)
-                else:
-                    print("Second largest is:", c)
+# 36. another example for that above sum:
+# a = int(input("Enter a: "))
+# b = int(input("Enter b: "))
+# c = int(input("Enter c: "))
+# d = int(input("Enter d: "))
+#
+# # find largest first
+# if a>b and a>c and a>d:
+#     # now find 2nd largest among b,c,d
+#     if b>c and b>d:
+#         print("Second largest is:", b)
+#     else:
+#         if c>d:
+#             print("Second largest is:", c)
+#         else:
+#             print("Second largest is:", d)
+#
+# else:
+#     if b>a and b>c and b>d:
+#         # largest is b → check a,c,d
+#         if a>c and a>d:
+#             print("Second largest is:", a)
+#         else:
+#             if c>d:
+#                 print("Second largest is:", c)
+#             else:
+#                 print("Second largest is:", d)
+#
+#     else:
+#         if c>a and c>b and c>d:
+#             # largest is c → check a,b,d
+#             if a>b and a>d:
+#                 print("Second largest is:", a)
+#             else:
+#                 if b>d:
+#                     print("Second largest is:", b)
+#                 else:
+#                     print("Second largest is:", d)
+#
+#         else:
+#             # largest is d → check a,b,c
+#             if a>b and a>c:
+#                 print("Second largest is:", a)
+#             else:
+#                 if b>c:
+#                     print("Second largest is:", b)
+#                 else:
+#                     print("Second largest is:", c)
+#
+#
+# JUST EXAMPLES:{
+# print([1,2,3]==[3,2,1])
+# print({1,2,3}=={3,2,1})
+# print((1,2,3)==(3,2,1))
+# print({'a':12}=={12:'a'})
+# }
+# *************************************[LOOPING STATEMENT]************************************************
+#  WHILE LOOP: CONTINUE GIVE PRINT OUTPUT AGAINA ND AGIN UNTIL THE CONDITION GET FAILED:
+# 37. WAP
+i=1
+while i<=10:
+    print("i took the class",i)
+    i=i+1
