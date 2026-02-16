@@ -360,7 +360,7 @@
 #                     print("Second largest is:", c)
 #
 #
-# JUST EXAMPLES:{
+# JUST EXAMPLESs:{
 # print([1,2,3]==[3,2,1])
 # print({1,2,3}=={3,2,1})
 # print((1,2,3)==(3,2,1))
