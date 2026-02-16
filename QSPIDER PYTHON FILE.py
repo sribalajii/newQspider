@@ -375,8 +375,15 @@
 #     i=i+1
 
 # 38. WAPT PRINT N NATURAL NUMBERS:
-n=int(input("enter a number :"))
+# n=int(input("enter a number :"))
+# i=1
+# while i<=n:#the user input
+#     print(f"the natural numbers'{i}'")# the statement print again and again untile the condition fails.
+#     i=i+1# update
+
+# 38. WAPT extract the number between 1 to 10:
 i=1
-while i<=n:#the user input
-    print(f"the natural numbers'{i}'")# the statement print againa nd again untile the condition fails.
-    i=i+1# update
+while i<=10:
+    if i%2==0:
+        print(f"even number '{i}'")
+    i=i+1
