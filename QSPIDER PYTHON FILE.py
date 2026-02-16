@@ -369,7 +369,14 @@
 # *************************************[LOOPING STATEMENT]************************************************
 #  WHILE LOOP: CONTINUE GIVE PRINT OUTPUT AGAIN ND AGAIN UNTIL THE CONDITION GET FAILED:
 # 37. WAP
+# i=1
+# while i<=10:
+#     print("i took the class",i)
+#     i=i+1
+
+#  WAPT PRINT N NATURAL NUMBERS:
+n=int(input("enter a number :"))
 i=1
-while i<=10:
-    print("i took the class",i)
+while i<=n:
+    print(f"the natural numbers'{i}'")
     i=i+1
