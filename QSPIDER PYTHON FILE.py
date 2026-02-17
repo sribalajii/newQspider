@@ -432,9 +432,28 @@
 #     print(i,'x = ',i*2)
 #     i=i+1
 
+# # 42. WAPT reverse the  order
+# i=int(input("enter a number: "))
+# while i>=1:
+#     print(i)
+#     i=i-1
 
-# 42. WAPT reverse the  order
-i=int(input("enter a number: "))
-while i>=1:
-    print(i)
-    i=i-1
+# 42. WAPT reverse the integer number:
+# n=int(input("enter a integer: "))
+# i=n
+# rev=0
+# while i>0:
+#     ld=i%10
+#     rev=rev*10+ld
+#     i=i//10
+# print(rev)
+
+# 43. WAPT find the sum the individual digits
+n=int(input('enter a number: '))
+sum=0
+i=n
+while i>0:
+    ld=i%10
+    sum=sum+ld
+    i=i//10
+print(sum)
