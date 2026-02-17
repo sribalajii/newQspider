@@ -448,12 +448,25 @@
 #     i=i//10
 # print(rev)
 
-# 43. WAPT find the sum the individual digits
-n=int(input('enter a number: '))
-sum=0
-i=n
+# # 43. WAPT find the sum the individual digits
+# n=int(input('enter a number: '))
+# sum=0
+# i=n
+# while i>0:
+#     ld=i%10
+#     sum=sum+ld
+#     i=i//10
+# print(sum)
+# # wap program, itration for sum and  reverse
+# # 44. WAPT FIND THE PRODUCT OF EVEN INDIVIDUAL DIGITS:
+N=int(input("enter a number :"))
+even=0
+i=N
 while i>0:
     ld=i%10
-    sum=sum+ld
+    if id%2==0:
+        even=even*10+ld
+        i=i//10
     i=i//10
-print(sum)
+print(even)
+#
