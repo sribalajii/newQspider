@@ -427,7 +427,8 @@
 #     i=i+1
 
 # 41. WAP a program to print 2 tables:
+n=
 i=1
-while i<=10:
+while n<=10:
     print(i,'x = ',i*2)
     i=i+1
