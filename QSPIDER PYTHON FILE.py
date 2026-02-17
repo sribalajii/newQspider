@@ -382,8 +382,45 @@
 #     i=i+1# update
 
 # 38. WAPT extract the number between 1 to 10:
+# i=1
+# while i<=10:
+#     if i%2==0:
+#         print(f"even number '{i}'")
+#     i=i+1
+
+# EXAMPLES SUMS FROM GPT:
+# 1. REVERSE NUMBERS
+# i=10
+# while i>=1:
+#     print(i)
+#     i=i-1
+
+# #2. ASK PASSWORD UNTIL IT'S CORRECT:
+# pd='1234'
+# u=input("enter the password")
+# i=1
+# while u!=pd:
+#     print(input("password wrong , enter again"))
+# # *************
+# pd='1234'
+# u=input("enter the password: ")
+# i=1
+# while u!=pd:
+#     u=(input("password wrong , enter again"))
+# print('password correct')
+#
+# #  WAPT print all the numbers which are multi of 5,between 1 to n:
+# n=int(input("enter a number: "))
+# i=1
+# while i>=n:
+#     if n%5==0:
+#         print(n)
+#     i=i+1
+# 39. wap to fetch divide by 2 and 5 between 100:
+
 i=1
-while i<=10:
-    if i%2==0:
-        print(f"even number '{i}'")
+while i<=100:
+    if i%2==0 and i%5==0:
+        print(i)
     i=i+1
+
