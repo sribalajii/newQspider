@@ -416,7 +416,6 @@
 #     if n%5==0:
 #         print(n)
 #     i=i+1
-# 39. wap to fetch divide by 2 and 5 between 100:
 
 i=1
 while i<=100:
