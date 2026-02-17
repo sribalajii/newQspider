@@ -387,6 +387,7 @@
 #     if i%2==0:
 #         print(f"even number '{i}'")
 #     i=i+1
+# **************************************************************************************
 
 # EXAMPLES SUMS FROM GPT:
 # 1. REVERSE NUMBERS
@@ -408,8 +409,8 @@
 # while u!=pd:
 #     u=(input("password wrong , enter again"))
 # print('password correct')
-#
-# #  WAPT print all the numbers which are multi of 5,between 1 to n:
+#**********************************************************************************
+# # 39 WAPT print all the numbers which are multi of 5,between 1 to n:
 # n=int(input("enter a number: "))
 # i=1
 # while i>=n:
@@ -417,9 +418,16 @@
 #         print(n)
 #     i=i+1
 
-i=1
-while i<=100:
-    if i%2==0 and i%5==0:
-        print(i)
-    i=i+1
 
+# 40. wap to fetch the number , divide by 2 and 5 between 100:
+# i=1
+# while i<=100:
+#     if i%2==0 and i%5==0:
+#         print(i)
+#     i=i+1
+
+# 41. WAP a program to print 2 tables:
+i=1
+while i<=10:
+    print(i,'x = ',i*2)
+    i=i+1
