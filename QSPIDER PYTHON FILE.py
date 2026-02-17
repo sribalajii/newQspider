@@ -431,7 +431,8 @@
 # while i<=10:
 #     print(i,'x = ',i*2)
 #     i=i+1
-# 42. reverse the  order
+
+# 42. WAPT reverse the  order
 i=int(input("enter a number: "))
 while i>=1:
     print(i)
