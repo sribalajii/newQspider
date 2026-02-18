@@ -491,11 +491,18 @@
 #     i+=1
 # print(sum)
 # 46.  wap find factorial number:
-n=int(input("enter a number: "))
-i=1
-sum=1
-while i<=n:
-    sum=sum*i
-    i+=1
-print(sum)
 
+
+# 47. wapt print the every char in string:
+# n=input("enter a string: ")
+# i=0
+# while i<len(n):
+#     print(n[i])
+#     i=i+1
+
+#48.  wapt extract the values form the given list:
+n=eval(input("enter a list: "))
+i=0
+while i<len(n):
+    print(n[i])
+    i=i+1
