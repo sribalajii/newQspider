@@ -471,7 +471,7 @@
 #         i=i//10
 #
 # print(sum)
-# #
+# #  44. WAPT FIND THE PRODUCT OF EVEN INDIVIDUAL DIGITS:
 n=int(input("enter a number: "))
 product=1
 i=n
@@ -479,9 +479,6 @@ while i>0:
     ld=i%10
     if ld%2==0:
        product=product*ld
-
-
-
     i=i//10
 print(i)
 
