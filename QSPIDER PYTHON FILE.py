@@ -514,3 +514,5 @@ while i<len(n):
     if 'A'<=n[i]<='Z':
         print(n[i])
     i=i+1
+#today hw
+        
