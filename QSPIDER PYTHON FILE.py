@@ -480,5 +480,6 @@ while i>0:
     if ld%2==0:
        product=product*ld
     i=i//10
-print(i)
+print(product)
 
+# 45.  WAPT find sum of natural numbers:
