@@ -484,7 +484,7 @@
 
 # 45.  WAPT find sum of natural numbers:
 # n=int(input("enter a number: "))
-# i=1
+# i=1 ?????????????
 # sum=0
 # while i<=n:
 #     sum=sum+i
