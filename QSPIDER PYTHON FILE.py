@@ -459,14 +459,29 @@
 # print(sum)
 # # wap program, itration for sum and  reverse
 # # 44. WAPT FIND THE PRODUCT OF EVEN INDIVIDUAL DIGITS:
-N=int(input("enter a number :"))
-even=0
-i=N
+# N=int(input("enter a number :"))
+# even=0
+# sum=0
+# i=N
+# while i>0:
+#     ld=N%10
+#     if i%2==0:
+#         even=even*10+ld
+#         sum=sum+even
+#         i=i//10
+#
+# print(sum)
+# #
+n=int(input("enter a number: "))
+product=1
+i=n
 while i>0:
     ld=i%10
-    if id%2==0:
-        even=even*10+ld
-        i=i//10
+    if ld%2==0:
+       product=product*ld
+
+
+
     i=i//10
-print(even)
-#
+print(i)
+
