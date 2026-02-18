@@ -472,14 +472,30 @@
 #
 # print(sum)
 # #  44. WAPT FIND THE PRODUCT OF EVEN INDIVIDUAL DIGITS:
-n=int(input("enter a number: "))
-product=1
-i=n
-while i>0:
-    ld=i%10
-    if ld%2==0:
-       product=product*ld
-    i=i//10
-print(product)
+# n=int(input("enter a number: "))
+# product=1
+# i=n
+# while i>0:
+#     ld=i%10
+#     if ld%2==0:
+#        product=product*ld
+#     i=i//10
+# print(product)
 
 # 45.  WAPT find sum of natural numbers:
+# n=int(input("enter a number: "))
+# i=1
+# sum=0
+# while i<=n:
+#     sum=sum+i
+#     i+=1
+# print(sum)
+# 46.  wap find factorial number:
+n=int(input("enter a number: "))
+i=1
+sum=1
+while i<=n:
+    sum=sum*i
+    i+=1
+print(sum)
+
