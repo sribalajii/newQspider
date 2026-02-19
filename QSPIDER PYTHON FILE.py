@@ -514,14 +514,14 @@
 #     if 'A'<=n[i]<='Z':
 #         print(n[i])
 #     i=i+1
-#today hw
+#50 .wapt extract from the given  integer only from list :
 # n=eval(input("enter a list"))
 # i=0
 # while i<len(n):
 #     if type(n[i])==int:
 #         print(n[i])
 #     i=i+1
-# 50. wapt extract from the given  string , lower case only:
+#51. wapt extract from the given  string , lower case only:
 n=input("enter a values: ")
 i=0
 while i<len(n):
