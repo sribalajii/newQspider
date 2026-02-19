@@ -508,11 +508,25 @@
 #     i=i+1
 
 #49. wapt extract from the given  string , upper case only:
-n=input("enter a value:")
+# n=input("enter a value:")
+# i=0
+# while i<len(n):
+#     if 'A'<=n[i]<='Z':
+#         print(n[i])
+#     i=i+1
+#today hw
+# n=eval(input("enter a list"))
+# i=0
+# while i<len(n):
+#     if type(n[i])==int:
+#         print(n[i])
+#     i=i+1
+# 50. wapt extract from the given  string , lower case only:
+n=input("enter a values: ")
 i=0
 while i<len(n):
-    if 'A'<=n[i]<='Z':
+    if 'a'<=n[i]<='z':
         print(n[i])
     i=i+1
-#today hw
+
         
