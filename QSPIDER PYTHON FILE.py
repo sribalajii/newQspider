@@ -533,11 +533,23 @@
 
 
 #52. WAPT  extract vowel in given string
-n=input("enter a string: ")
+# n=input("enter a string: ")
+# i=0
+# st=''
+# while i<len(n):
+#     if n[i] in 'AEIOUaeiou':
+#         st=st+n[i]
+#     i=i+1
+# print(st)
+
+
+#53. WAPT find the product of all float numbers , present at odd index in given tuple
+n=eval(input("enter a tuple: "))
 i=0
-st=''
+out=1
 while i<len(n):
-    if n[i] in 'AEIOUaeiou':
-        st=st+n[i]
+    if type(n[i])==float and n[i]%2!=0:
+        out=out*n[i]
+
     i=i+1
-print(st)
+print(out)
