@@ -531,6 +531,7 @@
 #     i=i+1
 # print(out)
 
+
 #52. WAPT  extract vowel in given string
 n=input("enter a string: ")
 i=0
