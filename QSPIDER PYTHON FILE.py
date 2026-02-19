@@ -522,12 +522,19 @@
 #         print(n[i])
 #     i=i+1
 # 51. wapt extract from the given  string , lower case only:
-n=input("enter a values: ")
-i=0
-out=''
-while i<len(n):
-    if 'a'<=n[i]<='z':
-        out=out+n[i]
-    i=i+1
-print(out)
+# n=input("enter a values: ")
+# i=0
+# out=''
+# while i<len(n):
+#     if 'a'<=n[i]<='z':
+#         out=out+n[i]
+#     i=i+1
+# print(out)
 
+#52. WAPT  extract vowel in given string
+n=input("enter a string: ")
+i=0
+while i<len(n):
+    if n[i] in 'AEIOUaeiou':
+        print(n[i])
+    i=i+1
