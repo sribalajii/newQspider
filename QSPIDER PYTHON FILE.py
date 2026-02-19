@@ -535,7 +535,9 @@
 #52. WAPT  extract vowel in given string
 n=input("enter a string: ")
 i=0
+st=''
 while i<len(n):
     if n[i] in 'AEIOUaeiou':
-        print(n[i])
+        st=st+n[i]
     i=i+1
+print(st)
