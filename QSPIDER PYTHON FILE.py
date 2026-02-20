@@ -544,11 +544,32 @@
 
 
 #53. WAPT find the product of all float numbers , present at odd index in given tuple
-n=eval(input("enter a tuple: "))
+# n=eval(input("enter a tuple: "))
+# i=0
+# out=1
+# while i<len(n):
+#     if type(n[i])==float and n[i]%2!=0:
+#         out=out*n[i]
+#     i=i+1
+# print(out)
+
+# wapt extract upper and lower char, digigts and special store each type sparate variable:
+n=input("enter a value: ")
 i=0
-out=1
+lower=""
+upper=""
+digits=""
+specail=""
 while i<len(n):
-    if type(n[i])==float and n[i]%2!=0:
-        out=out*n[i]
+
+    if 'a'<=n[i]<='z':
+        lower=lower+n[i]
+    elif 'A'<= n[i]<='Z':
+        upper=upper+ n[i]
+    elif '0'<=(n[i])<='9':
+        digits=digits+n[i]
+    else:
+        specail=specail+n[i]
     i=i+1
-print(out)
+print(f"lower:{lower}, upper: {upper},digits: {digits},specail: {specail}")
+
