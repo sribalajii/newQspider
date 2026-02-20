@@ -591,9 +591,9 @@ lower=''
 i=0
 while i<len(n):
     if 'a'<=n[i]<='z':
-        upper=upper+chr(ord(n[i])-32)
+        upper+=chr(ord(n[i])-32)
     elif 'A'<=n[i]<='Z':
-        lower = lower + chr(ord(n[i]) + 32)
+        lower+=chr(ord(n[i])+32)
     else:
         upper+=n[i]
     i+=1
