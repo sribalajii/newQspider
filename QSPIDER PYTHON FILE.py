@@ -553,23 +553,33 @@
 #     i=i+1
 # print(out)
 
-# wapt extract upper and lower char, digigts and special store each type sparate variable:
-n=input("enter a value: ")
+# 54. wapt extract upper and lower char, digits and special store each type sparate variable:
+# n=input("enter a value: ")
+# i=0
+# lower=""
+# upper=""
+# digits=""
+# specail=""
+# while i<len(n):
+#
+#     if 'a'<=n[i]<='z':
+#         lower=lower+n[i]
+#     elif 'A'<= n[i]<='Z':
+#         upper=upper+ n[i]
+#     elif '0'<=(n[i])<='9':
+#         digits=digits+n[i]
+#     else:
+#         specail=specail+n[i]
+#     i=i+1
+# print(f"lower: '{lower}' , upper: '{upper}',digits: '{digits}',specail: '{specail}'")
+#
+
+#55. wapt find the sum of intger form the given list:
+n=eval(input("enter a values: "))
+sum=0
 i=0
-lower=""
-upper=""
-digits=""
-specail=""
 while i<len(n):
-
-    if 'a'<=n[i]<='z':
-        lower=lower+n[i]
-    elif 'A'<= n[i]<='Z':
-        upper=upper+ n[i]
-    elif '0'<=(n[i])<='9':
-        digits=digits+n[i]
-    else:
-        specail=specail+n[i]
-    i=i+1
-print(f"lower:{lower}, upper: {upper},digits: {digits},specail: {specail}")
-
+    if type(n[i])==int:
+        sum+=n[i]
+    i+=1
+print(sum)
