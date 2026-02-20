@@ -584,7 +584,7 @@
 #     i+=1
 # print(sum)
 
-# wapt convert all lower case into upper case without using inbuilt function:
+# 56. wapt convert all lower case into upper case without using inbuilt function:
 n=input("enter a value: ")
 upper=''
 lower=''
