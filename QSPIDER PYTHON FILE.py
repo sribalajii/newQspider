@@ -550,6 +550,5 @@ out=1
 while i<len(n):
     if type(n[i])==float and n[i]%2!=0:
         out=out*n[i]
-
     i=i+1
 print(out)
