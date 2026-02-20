@@ -585,16 +585,16 @@
 # print(sum)
 
 # 56. wapt convert all lower case into upper case without using inbuilt function:
-n=input("enter a value: ")
-upper=''
-lower=''
-i=0
-while i<len(n):
-    if 'a'<=n[i]<='z':
-        upper+=chr(ord(n[i])-32)
-    elif 'A'<=n[i]<='Z':
-        lower+=chr(ord(n[i])+32)
-    else:
-        upper+=n[i]
-    i+=1
-print(upper,lower)
+# n=input("enter a value: ")
+# upper=''
+# lower=''
+# i=0
+# while i<len(n):
+#     if 'a'<=n[i]<='z':
+#         upper+=chr(ord(n[i])-32)
+#     elif 'A'<=n[i]<='Z':
+#         lower+=chr(ord(n[i])+32)
+#     else:
+#         upper+=n[i]
+#     i+=1
+# print(upper,lower)
