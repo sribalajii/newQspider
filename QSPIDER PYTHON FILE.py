@@ -575,11 +575,26 @@
 #
 
 #55. wapt find the sum of intger form the given list:
-n=eval(input("enter a values: "))
-sum=0
+# n=eval(input("enter a values: "))
+# sum=0
+# i=0
+# while i<len(n):
+#     if type(n[i])==int:
+#         sum+=n[i]
+#     i+=1
+# print(sum)
+
+# wapt convert all lower case into upper case without using inbuilt function:
+n=input("enter a value: ")
+upper=''
+lower=''
 i=0
 while i<len(n):
-    if type(n[i])==int:
-        sum+=n[i]
+    if 'a'<=n[i]<='z':
+        upper=upper+chr(ord(n[i])-32)
+    elif 'A'<=n[i]<='Z':
+        lower = lower + chr(ord(n[i]) + 32)
+    else:
+        upper+=n[i]
     i+=1
-print(sum)
+print(upper,lower)
