@@ -617,5 +617,5 @@
 n=eval(input("Enter a data: "))
 for i in n:
     if i in "aeiouAEIOU":
-        print(f"its vowels: {i}")
+        print(f"it's vowels: {i}")
 
