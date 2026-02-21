@@ -607,8 +607,15 @@
 #         print(f"even number: {i}")
 
 #2.WAPT find the length of the  collection without  using len():
-n=eval(input("enter a names: "))
-count=0
+# n=eval(input("enter a names: "))
+# count=0
+# for i in n:
+#     count+=1
+# print(count)
+
+# 3.WAPT extract the vowels from the string:
+n=eval(input("Enter a data: "))
 for i in n:
-    count+=1
-print(count)
+    if i in "aeiouAEIOU":
+        print(f"its vowels: {i}")
+
