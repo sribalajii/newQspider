@@ -598,3 +598,9 @@
 #         upper+=n[i]
 #     i+=1
 # print(upper,lower)
+
+# ***************************************[FOR LOOP]***************************************************
+#1.WAPT fetch even from 1  to 15:
+for i in range(1,16):
+    if i%2==0:
+        print(f"even number: {i}")
