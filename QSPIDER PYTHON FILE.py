@@ -614,8 +614,19 @@
 # print(count)
 
 # 3.WAPT extract the vowels from the string:
-n=eval(input("Enter a data: "))
+# n=eval(input("Enter a data: "))
+# for i in n:
+#     if i in "aeiouAEIOU":
+#         print(f"it's vowels: {i}")
+
+# 4. WAPT replace empty space with '_' for given data:
+n=input("enter data: ")
+name=""
 for i in n:
-    if i in "aeiouAEIOU":
-        print(f"it's vowels: {i}")
+    if i==" ":
+        name+="_"
+    else:
+        name+=i
+
+print(name)
 
