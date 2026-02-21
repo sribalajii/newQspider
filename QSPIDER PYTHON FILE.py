@@ -602,6 +602,13 @@
 # ***************************************[FOR LOOP]***************************************************
 
 #1.WAPT fetch even from 1  to 15:
-for i in range(1,16):
-    if i%2==0:
-        print(f"even number: {i}")
+# for i in range(1,16):
+#     if i%2==0:
+#         print(f"even number: {i}")
+
+#2.WAPT find the length of the  collection without  using len():
+n=input("enter a names: ")
+count=0
+for i in n:
+    count+=1
+print(count)
