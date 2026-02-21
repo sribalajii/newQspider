@@ -607,7 +607,7 @@
 #         print(f"even number: {i}")
 
 #2.WAPT find the length of the  collection without  using len():
-n=input("enter a names: ")
+n=eval(input("enter a names: "))
 count=0
 for i in n:
     count+=1
