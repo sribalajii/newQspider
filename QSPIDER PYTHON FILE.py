@@ -3,7 +3,7 @@
 # b=int(input("enter the number :"))
 # print(a+b)
 # print(f"the total value is {a+b}")
-
+from os.path import split
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number :"))
@@ -681,9 +681,21 @@
 # print(upper)
 #
 
-# # wapt a to z
+#11. wapt a to z
 # for i in range(65,91):
 #     print(chr(i),end=" ")
 # for i in range(ord('A'),ord('Z')):
 #     print(chr(i))
+
+# 12. wapt following output:
+n="hii baby how are you"
+out={}
+for i in (n.split()):
+        out[i]=len(i)
+print(out)
+print(n.split())# split() give sprate vau in string, its give value as list only.
+
+
+
+
 
