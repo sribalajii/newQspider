@@ -638,15 +638,24 @@
 #     print(f"it's not paladinrome {n}")
 
 
-#6. wap to print factorial number
-n=int(input("Enter The Number: "))
-prod=1
-for i in range (1,n+1):
-    prod=prod*i
-print(prod)
-#7. wap to print all divisor of the given number
-n=int(input("Enter The Number: "))
-print(f"divisor {n} are:")
-for i in range (1,n+1):
-    if n%i==0:
-        print(i)
+# 6. wap to print factorial number
+# n=int(input("Enter The Number: "))
+# prod=1
+# for i in range (1,n+1):#n+1 facts format
+#     prod=prod*i
+# print(prod)
+
+# 7. wap to print all divisor of the given number
+# n=int(input("Enter The Number: "))
+# print(f"divisor {n} are:")
+# for i in range (1,n+1):
+#     if n%i==0:
+#         print(i)
+
+#8. WAPT get the following output
+n=(8,9.0,'love','day','gokul','reshma',[7,8])
+out={}
+for i in n:
+    if isinstance(i,str):
+        out[i]=len(i)
+print(out)
