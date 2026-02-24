@@ -620,13 +620,21 @@
 #         print(f"it's vowels: {i}")
 
 # 4. WAPT replace empty space with '_' for given data:
-n=input("enter data: ")
-name=""
-for i in n:
-    if i==" ":
-        name+="_"
-    else:
-        name+=i
+# n=input("enter data: ")
+# name=""
+# for i in n:
+#     if i==" ":
+#         name+="_"
+#     else:
+#         name+=i
+#
+# print(name)
 
-print(name)
+# HW 5. wapt check given string is paladinrome or not? without slicing and inbuild ():
+# n=input("enter a string: ")
+# if n==n:
+#     print(f"it's paladinrome {n}")
+# else:
+#     print(f"it's not paladinrome {n}")
+
 
