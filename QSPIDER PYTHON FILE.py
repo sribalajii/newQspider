@@ -688,14 +688,21 @@ from os.path import split
 #     print(chr(i))
 
 # 12. wapt following output:
-n="hii baby how are you"
-out={}
-for i in (n.split()):
-        out[i]=len(i)
+# n="hii baby how are you"
+# out={}
+# for i in (n.split()):
+#         out[i]=len(i)
+# print(out)
+# print(n.split())# split() give sprate vau in string, its give value as list only.
+#
+
+
+# 13 wapt following output
+l=['python.py','google.com']
+out=[]
+for i in l:
+    out.append(i.split(".")[-1])
 print(out)
-print(n.split())# split() give sprate vau in string, its give value as list only.
-
-
 
 
 
