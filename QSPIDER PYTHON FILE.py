@@ -1,53 +1,53 @@
 # 1. add two numbers
-# a=int(input("enter the number : "))
-# b=int(input("enter the number : "))
+# a=int(input("enter the number :"))
+# b=int(input("enter the number :"))
 # print(a+b)
 # print(f"the total value is {a+b}")
 
 
 # 2. WAPTF the square of the number:
-# c=int(input("enter the number : "))
+# c=int(input("enter the number :"))
 # print(f"the square of the {c} is: {c**2}")
 
 # 3. WAPT change float to integer number:
-# d=float(input("enter a number: "))
+# d=float(input("enter a number:"))
 # e=int(d)
 # print(e,type(e))
 
 # 4. WAPT print the last char form string:
-# f=input(" enter a name: ")
+# f=input(" enter a name:")
 # print(f" the last char of {f} is : {f[-1]}")
 
 # 5. WAPT reverse the string:
-# g=input("enter name: ")
+# g=input("enter name:")
 # print(f"the reverse of '{g}' is : {g[::-1]}")
 
 
 # 6. WAPT fetch middle value from list:
-# h=eval(input("enter value: "))
+# h=eval(input("enter value:"))
 # print([len(h)//2])
 
 # 7. WAPT  extarct last number from value:
-# i=(input("enter number: "))
+# i=(input("enter number:"))
 # print(f"the last value of {i} is  : {i[-1]}")
 # **************************************[IF]********************************************************
 # 8. WAPT simple if program
-# j=int(input("enter a number : "))
+# j=int(input("enter a number:"))
 # if j%2==0:
 #     print(f"{j} is even number ")
 
 # 9.WAPT CHECK THE given string is exactly 5 char or not?:
-# k=input("enter the  string: ")
+# k=input("enter the  string:")
 # if len(k)==5:
 #     print(f"'{k}' is a five char")
 
 # 10. WAP to check the given number is greater than 200 or not?
-# m=int(input("enter the number: "))
+# m=int(input("enter the number:"))
 # if m>200:
 #     print(f"'{m}' is greater then 200.")
 
 # 11. WAP to print the square of the number , if it's the multiple of 3 only:
-# n=int(input("enter the  number: "))
+# n=int(input("enter the  number:"))
 # if n%3==0:
 #     print(f" the square of '{n}' is  {n**2}")
 
@@ -60,14 +60,14 @@
 #     print(f"{o} is not lower case")
 
 #13. check the entered char is upper case or not?
-# o = input("enter a char: ")
+# o = input("enter a char:")
 #
 # if 'A' <= o <= 'Z':
 #     print(f"{o} is lower case")
 # else:
 #     print(f"{o} is not lower case")
 
-# 14. WAP to find enter number is 3 digit number or not
+# 14. WAP to find enter number is 3-digit number or not
 
 # z=int(input("enter a number: "))
 # if 99<=z<=999:
@@ -76,7 +76,7 @@
 # *********************************[IF-ELSE]****************************************
 
 # 15.WAPT find enter number float number or not: note , if want check the type of data means,use TYPE()
-# x=eval(input("enter a value: "))
+# x=eval(input("enter a value:"))
 # if type(x)==float:
 #     print(f"the enter value'{x}' is float value")
 # else:
@@ -90,14 +90,14 @@
 #     print(f"the enter number '{y}' is odd number")
 
 #17. WAP to check entered number is palaindrome or not:
-# r=input("enter a values: ")
+# r=input("enter a values:")
 # if r[::]==r[::-1]:
 #     print(f"enter name '{r}' is palaindrome")
 # else:
 #     print(f"'{r}'not a palaindrome ")
 
 #18. WAPT check thee given char is vowel or not:
-# s=input("enter a char: ")
+# s=input("enter a char:")
 # if s in ['a','e','i','o','u','A','E','I','O','U']:
 #     print(f" the enter char '{s}' is vowel")
 # else:
@@ -105,7 +105,7 @@
 
 #19. WAPT the enter value is single value datatype or multi value data type
 #
-# i=eval(input("enter a values: "))
+# i=eval(input("enter a values:"))
 # if type(i) in [int,float,complex]:
 #     print(f"enter the values is '{i}' SVD")
 # else:
@@ -668,3 +668,22 @@
 #     if type(i)==str:
 #         out[i]=i[0]+i[-1]
 # print(out)
+
+
+#10. WAP
+# n='Maple123'
+# upper={}
+# for i in n:
+#     if 'a' <= i <= 'z':
+#         upper[i]=chr(ord(i)-32)
+#     elif 'A' <= i <= 'Z':
+#         upper[i]= chr(ord(i)+32)
+# print(upper)
+#
+
+# # wapt a to z
+# for i in range(65,91):
+#     print(chr(i),end=" ")
+# for i in range(ord('A'),ord('Z')):
+#     print(chr(i))
+
