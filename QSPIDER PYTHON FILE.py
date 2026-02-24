@@ -638,15 +638,15 @@
 #     print(f"it's not paladinrome {n}")
 
 
-##wap to print factorial number
-'''n=int(input("Enter The Number: "))
-sum=1
+#6. wap to print factorial number
+n=int(input("Enter The Number: "))
+prod=1
 for i in range (1,n+1):
-    sum=sum*i
-print(sum)'''
-##wap to print all divisor of the given number
-'''n=int(input("Enter The Number: "))
+    prod=prod*i
+print(prod)
+#7. wap to print all divisor of the given number
+n=int(input("Enter The Number: "))
 print(f"divisor {n} are:")
 for i in range (1,n+1):
     if n%i==0:
-        print(i)'''
+        print(i)
