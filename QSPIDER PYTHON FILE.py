@@ -652,10 +652,19 @@
 #     if n%i==0:
 #         print(i)
 
-#8. WAPT get the following output
-n=(8,9.0,'love','day','gokul','reshma',[7,8])
-out={}
-for i in n:
-    if isinstance(i,str):
-        out[i]=len(i)
-print(out)
+# #8. WAPT get the following output
+# n=(8,9.0,'love','day','gokul','reshma',[7,8])
+# out={}
+# for i in n:
+#     if isinstance(i,str):
+#         out[i]=len(i)
+# print(out)
+
+
+# # 9. WAPT get the following output:
+# p=['abdul',87.9,'shachu',7,9+0j,'guna']
+# out={}
+# for i in p:
+#     if type(i)==str:
+#         out[i]=i[0]+i[-1]
+# print(out)
