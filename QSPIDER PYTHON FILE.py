@@ -3,7 +3,6 @@
 # b=int(input("enter the number :"))
 # print(a+b)
 # print(f"the total value is {a+b}")
-from os.path import split
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number :"))
@@ -694,8 +693,6 @@ from os.path import split
 #         out[i]=len(i)
 # print(out)
 # print(n.split())# split() give sprate vau in string, its give value as list only.
-'''
-'''
 
 # 13 wapt following output
 # l=['python.py','google.com']
@@ -703,4 +700,16 @@ from os.path import split
 # for i in l:
 #     out.append(i.split(".")[-1])
 # print(out)
+
+#14. wap for perfect number:
+n=int(input("enter a number:"))
+sum=0
+for i in range (1,n):
+    if n%i==0:
+        sum=sum+i
+
+if sum==n:
+        print(f"its perfect")
+else:
+        print(f"its  not perfect")
 
