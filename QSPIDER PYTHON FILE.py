@@ -703,14 +703,34 @@
 
 #14. wap for perfect number:
 
-n=int(input("enter a number:"))
-total=0
-for i in range (1,n):
-    if n%i==0:
-        total=total+i
+# n=int(input("enter a number:"))
+# total=0
+# for i in range (1,n):
+#     if n%i==0:
+#         total=total+i
+#
+# if total==n:
+#         print(f"its perfect number")
+# else:
+#         print(f"its  not perfect number")
 
-if total==n:
-        print(f"its perfect number")
-else:
-        print(f"its  not perfect number")
+# whileee loop exmaple onlyy
+# n=int(input("enter a number:"))
+# i=1
+# tt=0
+# while i<n:
+#     if n%i==0:
+#         tt=tt+i
+#     i=i+1
+# if tt==n:
+#     print(f"its perfect number")
+# else:
+#     print("not perfect number")
 
+# 15. wapt get the following output:
+l=['bobby.html','deepak.py','ganesh.java','sidhu.test']
+out={}
+for i in l:
+    v=i.split(".")
+    out[v[-1]]=v[0]
+print(out)
