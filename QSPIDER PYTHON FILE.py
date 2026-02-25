@@ -709,7 +709,7 @@ for i in range (1,n):
         sum=sum+i
 
 if sum==n:
-        print(f"its perfect")
+        print(f"its perfect number")
 else:
-        print(f"its  not perfect")
+        print(f"its  not perfect number")
 
