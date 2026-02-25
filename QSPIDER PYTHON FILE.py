@@ -3,7 +3,7 @@
 # b=int(input("enter the number :"))
 # print(a+b)
 # print(f"the total value is {a+b}")
-from itertools import count
+
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number :"))
