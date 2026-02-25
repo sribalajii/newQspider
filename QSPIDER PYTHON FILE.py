@@ -732,5 +732,5 @@ l=['bobby.html','deepak.py','ganesh.java','sidhu.test']
 out={}
 for i in l:
     v=i.split(".")
-    out[v[-1]]=v[0]
+    out[v[-1]]=v[0] #var(key)=new value
 print(out)
