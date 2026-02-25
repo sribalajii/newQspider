@@ -702,13 +702,14 @@
 # print(out)
 
 #14. wap for perfect number:
+
 n=int(input("enter a number:"))
-sum=0
+total=0
 for i in range (1,n):
     if n%i==0:
-        sum=sum+i
+        total=total+i
 
-if sum==n:
+if total==n:
         print(f"its perfect number")
 else:
         print(f"its  not perfect number")
