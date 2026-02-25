@@ -3,6 +3,7 @@
 # b=int(input("enter the number :"))
 # print(a+b)
 # print(f"the total value is {a+b}")
+from itertools import count
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number :"))
@@ -714,7 +715,7 @@
 # else:
 #         print(f"its  not perfect number")
 
-# whileee loop exmaple onlyy
+# just example from whileee loop exmaple onlyy
 # n=int(input("enter a number:"))
 # i=1
 # tt=0
@@ -728,9 +729,35 @@
 #     print("not perfect number")
 
 # 15. wapt get the following output:
-l=['bobby.html','deepak.py','ganesh.java','sidhu.test']
-out={}
-for i in l:
-    v=i.split(".")
-    out[v[-1]]=v[0] #var(key)=new value
+# l=['bobby.html','deepak.py','ganesh.java','sidhu.test']
+# out={}
+# for i in l:
+#     v=i.split(".")
+#     out[v[-1]]=v[0] #var(key)=new value
+# print(out)
+
+# 16. wap to get the output like this:
+# n="i'm from Tamilnadu"
+# n=n.split(" ")
+# out=''
+# for  i in n:
+#     v=i[ : :-1]
+#     out=out+v
+# print(out)
+# print("/".join(out))#join() make other colleciton make join in the form of string. "text".join(var)
+
+# 17.wapt following output;
+# l='dep hate you reshma'
+# out=[]
+# for i in l.split():
+#     out.append(i[0]+i[-1])
+# print(out)
+
+# 18. wapt following output
+n='abcabcabcc'
+out=""
+for i in n:
+    if i not in out:
+        out=out+i+str(n.count(i))
 print(out)
+
