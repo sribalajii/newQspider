@@ -780,7 +780,6 @@
 #
 # print(out)
 
-
 # # 21. a=sai out=tbj
 # a='sai'
 # out=''
