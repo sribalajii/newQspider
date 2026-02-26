@@ -780,20 +780,13 @@
 #
 # print(out)
 
-# input=kabilan
-# a='kabilan'
-# v=a.split()
-# for i in v:
-#     if i=='i':
-#         print(i)
-# print(i)
 
-# 21. a=sai out=tbj
-a='sai'
-out=''
-for i in a:
-    if 'a'<=i<='z':
-        out+=chr(ord(i)+1)
-print(out)
-
-
+# # 21. a=sai out=tbj
+# a='sai'
+# out=''
+# for i in a:
+#     if 'a'<=i<='z':
+#         out+=chr(ord(i)+1)
+# print(out)
+#
+#
