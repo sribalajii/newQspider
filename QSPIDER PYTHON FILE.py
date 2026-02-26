@@ -630,12 +630,12 @@
 #
 # print(name)
 
-# HW 5. wapt check given string is paladinrome or not? without slicing and inbuild ():
+# HW 5. wapt check given string is palindrome or not? without slicing and inbuild ():
 # n=input("enter a string: ")
 # if n==n:
-#     print(f"it's paladinrome {n}")
+#     print(f"it's palindrome {n}")
 # else:
-#     print(f"it's not paladinrome {n}")
+#     print(f"it's not palindrome {n}")
 
 
 # 6. wap to print factorial number
@@ -662,7 +662,7 @@
 
 
 # # 9. WAPT get the following output:
-# p=['abdul',87.9,'shachu',7,9+0j,'guna']
+# p=['abdul',87.9,'ashwin',7,9+0j,'guna']
 # out={}
 # for i in p:
 #     if type(i)==str:
@@ -715,7 +715,7 @@
 # else:
 #         print(f"its  not perfect number")
 
-# just example from whileee loop exmaple onlyy
+# just example from while loop example only
 # n=int(input("enter a number:"))
 # i=1
 # tt=0
@@ -737,7 +737,7 @@
 # print(out)
 
 # 16. wap to get the output like this:
-# n="i'm from Tamilnadu"
+# n="i'm from TamilNadu"
 # n=n.split(" ")
 # out=''
 # for  i in n:
