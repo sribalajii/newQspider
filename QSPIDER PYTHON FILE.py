@@ -754,10 +754,12 @@
 # print(out)
 
 # 18. wapt following output
-n='abcabcabcc'
-out=""
-for i in n:
-    if i not in out:
-        out=out+i+str(n.count(i))
-print(out)
+# n='abcabcabcc'
+# out=""
+# for i in n:
+#     if i not in out:
+#         out=out+i+str(n.count(i))
+# print(out)
+#
 
+# 19.
