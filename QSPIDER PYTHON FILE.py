@@ -744,16 +744,16 @@
 #     v=i[ : :-1]
 #     out=out+v
 # print(out)
-# print("/".join(out))#join() make other colleciton make join in the form of string. "text".join(var)
+# print("/".join(out))#join() make other collection make join in the form of string. "text".join(var)
 
-# 17.wapt following output;
+# 17.wapt following output:
 # l='dep hate you reshma'
 # out=[]
 # for i in l.split():
 #     out.append(i[0]+i[-1])
 # print(out)
 
-# 18. wapt following output
+# # 18. wapt following output:
 # n='abcabcabcc'
 # out=""
 # for i in n:
@@ -761,5 +761,39 @@
 #         out=out+i+str(n.count(i))
 # print(out)
 #
+# # 19. wapt unique values from the given collection.#var.count(value)
+# a=[11,12,11,12,18,12,19,11]
+# out=[]
+# for i in set(a):
+#     if a.count(i)==1:
+#         out.append(i)
+# print(out)
 
-# 19.
+# 20. WAPT to get this like out={'a':3,'b':3,'c':2}
+# a='abacbabc'
+# out={}
+# for i in a:
+#     if i not in out:
+#         out[i]=1  # var[key]=new value # syntax for add new value
+#     else:
+#         out[i]+=1
+#
+# print(out)
+
+# input=kabilan
+# a='kabilan'
+# v=a.split()
+# for i in v:
+#     if i=='i':
+#         print(i)
+# print(i)
+
+# 21. a=sai out=tbj
+a='sai'
+out=''
+for i in a:
+    if 'a'<=i<='z':
+        out+=chr(ord(i)+1)
+print(out)
+
+
