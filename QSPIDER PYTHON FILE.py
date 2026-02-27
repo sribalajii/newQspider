@@ -788,4 +788,13 @@
 #         out+=chr(ord(i)+1)
 # print(out)
 #
-#
+#22. wapt check the given number is amstrong or not?
+n=input("enter a data: ")
+sum=0
+for i in str(n):
+    sum=sum+int(i)**len(str(n))
+if sum==n:
+    print(f"it's an amstrong {n}")
+else:
+    print(f"it's not  amstrong {n}")
+
