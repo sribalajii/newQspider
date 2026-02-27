@@ -799,15 +799,31 @@
 #     print(f"it's not  amstrong {n}")
 
 # 22 same with while loop:
-n=int((input("enter a data: ")))
-sum=0
-i=n
-while i !=0:
-    ld=i%10
-    sum+=ld**len(str(n))
-    i//=10
+# n=int((input("enter a data: ")))
+# sum=0
+# i=n
+# while i !=0:
+#     ld=i%10
+#     sum+=ld**len(str(n))
+#     i//=10
+#
+# if sum==n:
+#     print(f"it's an amstrong {n}")
+# else:
+#     print(f"it's not amstrong {n}")
 
-if sum==n:
-    print(f"it's an amstrong {n}")
-else:
-    print(f"it's not amstrong {n}")
+
+# 23. wap to get output like: k='aaabbaabbcc', out='a3b2ca2b1c2'
+k='aaabbaabcc'
+count=1
+out=''
+for i in range(0,len(k)-1):
+    if k[i]==k[i+1]:
+        count+=1
+    else:
+        out=out+k[i]+str(count)
+        count=1
+out=out+k[i]+str(count)
+print(out)
+
+
