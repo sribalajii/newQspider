@@ -3,7 +3,7 @@
 # b=int(input("enter the number :"))
 # print(a+b)
 # print(f"the total value is {a+b}")
-
+from os import cpu_count
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number :"))
@@ -814,16 +814,30 @@
 
 
 # 23. wap to get output like: k='aaabbaabbcc', out='a3b2ca2b1c2'
+# k='aaabbaabcc'
+# count=1
+# out=''
+# for i in range(0,len(k)-1):
+#     if k[i]==k[i+1]:
+#         count+=1
+#     else:
+#         out=out+k[i]+str(count)
+#         count=1
+# out=out+k[i]+str(count)
+# print(out)
+
+
+# same program with while loop
 k='aaabbaabcc'
 count=1
 out=''
-for i in range(0,len(k)-1):
+i=0
+while i<len(k)-1:
     if k[i]==k[i+1]:
         count+=1
     else:
         out=out+k[i]+str(count)
         count=1
+    i+=1
 out=out+k[i]+str(count)
 print(out)
-
-
