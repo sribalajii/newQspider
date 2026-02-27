@@ -789,12 +789,25 @@
 # print(out)
 #
 #22. wapt check the given number is amstrong or not?
-n=input("enter a data: ")
+# n=input("enter a data: ")
+# sum=0
+# for i in str(n):
+#     sum=sum+int(i)**len(str(n))
+# if sum==n:
+#     print(f"it's an amstrong {n}")
+# else:
+#     print(f"it's not  amstrong {n}")
+
+# 22 same with while loop:
+n=int((input("enter a data: ")))
 sum=0
-for i in str(n):
-    sum=sum+int(i)**len(str(n))
+i=n
+while i !=0:
+    ld=i%10
+    sum+=ld**len(str(n))
+    i//=10
+
 if sum==n:
     print(f"it's an amstrong {n}")
 else:
-    print(f"it's not  amstrong {n}")
-
+    print(f"it's not amstrong {n}")
