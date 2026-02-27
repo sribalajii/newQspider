@@ -5,6 +5,8 @@
 # print(f"the total value is {a+b}")
 from os import cpu_count
 
+from PIL.ImImagePlugin import split
+
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number :"))
 # print(f"the square of the {c} is: {c**2}")
@@ -828,16 +830,24 @@ from os import cpu_count
 
 
 # same program with while loop
-k='aaabbaabcc'
-count=1
-out=''
-i=0
-while i<len(k)-1:
-    if k[i]==k[i+1]:
-        count+=1
-    else:
-        out=out+k[i]+str(count)
-        count=1
-    i+=1
-out=out+k[i]+str(count)
-print(out)
+# k='aaabbaabcc'
+# count=1
+# out=''
+# i=0
+# while i<len(k)-1:
+#     if k[i]==k[i+1]:
+#         count+=1
+#     else:
+#         out=out+k[i]+str(count)
+#         count=1
+#     i+=1
+# out=out+k[i]+str(count)
+# print(out)
+
+# 24. wapt get output like: =('google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org')
+# out={'com':{"google","amazon","anajali"}}, 'in':{"yahoo","priya"},org:{"python","java"}
+n=('google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org')
+out={}
+for i in n.split("."):
+
+
