@@ -895,10 +895,3 @@ m=input("enter a string:")
 # else:
 #     print(f"it's not angram {n},{m}")
 #
-# *************************
-for i in m:
-    if i not  in n:
-        print(f"it's not angram {n},{m}")
-        break
-    else:
-        print(f"it's angram,{n},{m}")
