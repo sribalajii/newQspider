@@ -854,7 +854,7 @@
 #     elif i[-1]=='org':
 #         out[i][-1]=i[0]
 # print(out)
-# ***************
+# ***************same progarm with diff program
 # out={}
 # for i in n:
 #     name=i.split('.')
