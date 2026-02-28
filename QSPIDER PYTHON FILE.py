@@ -857,10 +857,7 @@ from PIL.ImImagePlugin import split
 #     elif i[-1]=='org':
 #         out[i][-1]=i[0]
 # print(out)
-
-
-# 25. v={'a':'apple', 'm':'mon=ika','k':'kanya'}  output={'apple':'a','monika':'m','kanya':'k'}
-n={'a':'apple', 'm':'monika','k':'kanya'}
+# ***************
 # out={}
 # for i in n:
 #     name=i.split('.')
@@ -869,6 +866,10 @@ n={'a':'apple', 'm':'monika','k':'kanya'}
 #     else:
 #         out[name[-1]]=out[name[-1]]+out[name[0]]
 # print(out)
+# ******************************************
+# 25. v={'a':'apple', 'm':'mon=ika','k':'kanya'}  output={'apple':'a','monika':'m','kanya':'k'}
+n={'a':'apple', 'm':'monika','k':'kanya'}
+
 out={}
 for i in n:
     out[n[i]]=i
