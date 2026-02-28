@@ -3,9 +3,6 @@
 # b=int(input("enter the number :"))
 # print(a+b)
 # print(f"the total value is {a+b}")
-from os import cpu_count
-
-from PIL.ImImagePlugin import split
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number :"))
@@ -893,8 +890,15 @@ from PIL.ImImagePlugin import split
 # 27. wapt check the given string is angram or not?
 n=input("enter a string:")
 m=input("enter a string:")
-if sorted(n)==sorted(m):
-    print(f"it's angram {n},{m}")
-else:
-    print(f"it's not angram {n},{m}")
-
+# if sorted(n)==sorted(m):
+#     print(f"it's angram {n},{m}")
+# else:
+#     print(f"it's not angram {n},{m}")
+#
+# *************************
+for i in m:
+    if i not  in n:
+        print(f"it's not angram {n},{m}")
+        break
+    else:
+        print(f"it's angram,{n},{m}")
