@@ -870,15 +870,23 @@ from PIL.ImImagePlugin import split
 
 
 # 25. v={'a':'apple', 'm':'mon=ika','k':'kanya'}  output={'apple':'a','monika':'m','kanya':'k'}
-n={'a':'apple', 'm':'monika','k':'kanya'}
+# n={'a':'apple', 'm':'monika','k':'kanya'}
+# out={}
+# for i in n:
+#     out[n[i]]=i
+# print(out)
+# # BOTH WAY, BY ITEMS   , # VAR.ITEMS
+# out={}
+# for i,j in n.items():
+#     out[j]=i
+# print(out)
+#
+#
+# 26. WAPT H={'a':70,'b':85,'c':45,'d':34} out={'a':70,'b':85}
+H={'a':70,'b':85,'c':45,'d':34}
 out={}
-for i in n:
-    out[n[i]]=i
+for i,j in H.items():
+    if j>60:
+        out[i]=j
 print(out)
-# BOTH WAY, BY ITEMS   , # VAR.ITEMS
-out={}
-for i,j in n.items():
-    out[j]=i
-print(out)
-
 
