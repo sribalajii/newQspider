@@ -869,10 +869,14 @@ from PIL.ImImagePlugin import split
 # ******************************************
 # 25. v={'a':'apple', 'm':'mon=ika','k':'kanya'}  output={'apple':'a','monika':'m','kanya':'k'}
 n={'a':'apple', 'm':'monika','k':'kanya'}
-
 out={}
 for i in n:
     out[n[i]]=i
+print(out)
+# BOTH WAY, BY ITEMS   , # VAR.ITEMS
+out={}
+for i,j in n.items():
+    out[j]=i
 print(out)
 
 
