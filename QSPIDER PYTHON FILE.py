@@ -845,9 +845,33 @@ from PIL.ImImagePlugin import split
 # print(out)
 
 # 24. wapt get output like: =('google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org')
-# out={'com':{"google","amazon","anajali"}}, 'in':{"yahoo","priya"},org:{"python","java"}
-n=('google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org')
+# # out={'com':{"google","amazon","anajali"}}, 'in':{"yahoo","priya"},org:{"python","java"}
+# n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org'
+# out={}
+# for i in n:
+#     i=i.split('.')
+#     if i[-1]=='com':
+#         out[i][-1]=i[0]
+#     elif i[-1]=='in':
+#         out[i][-1]=i[0]
+#     elif i[-1]=='org':
+#         out[i][-1]=i[0]
+# print(out)
+
+
+# 25. v={'a':'apple', 'm':'mon=ika','k':'kanya'}  output={'apple':'a','monika':'m','kanya':'k'}
+n={'a':'apple', 'm':'monika','k':'kanya'}
+# out={}
+# for i in n:
+#     name=i.split('.')
+#     if name[-1] not in out:
+#         out [name[-1]]=name[0]
+#     else:
+#         out[name[-1]]=out[name[-1]]+out[name[0]]
+# print(out)
 out={}
-for i in n.split("."):
+for i in n:
+    out[n[i]]=i
+print(out)
 
 
