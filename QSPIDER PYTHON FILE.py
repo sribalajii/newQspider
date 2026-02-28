@@ -867,6 +867,8 @@ from PIL.ImImagePlugin import split
 #         out[name[-1]]=out[name[-1]]+out[name[0]]
 # print(out)
 # ******************************************
+
+
 # 25. v={'a':'apple', 'm':'mon=ika','k':'kanya'}  output={'apple':'a','monika':'m','kanya':'k'}
 n={'a':'apple', 'm':'monika','k':'kanya'}
 out={}
