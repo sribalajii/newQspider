@@ -883,10 +883,18 @@ from PIL.ImImagePlugin import split
 #
 #
 # 26. WAPT H={'a':70,'b':85,'c':45,'d':34} out={'a':70,'b':85}
-H={'a':70,'b':85,'c':45,'d':34}
-out={}
-for i,j in H.items():
-    if j>60:
-        out[i]=j
-print(out)
+# H={'a':70,'b':85,'c':45,'d':34}
+# out={}
+# for i,j in H.items():
+#     if j>60:
+#         out[i]=j
+# print(out)
+
+# 27. wapt check the given string is angram or not?
+n=input("enter a string:")
+m=input("enter a string:")
+if sorted(n)==sorted(m):
+    print(f"it's angram {n},{m}")
+else:
+    print(f"it's not angram {n},{m}")
 
