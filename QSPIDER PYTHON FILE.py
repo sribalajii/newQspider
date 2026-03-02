@@ -864,15 +864,15 @@
 #         out[name[-1]]=out[name[-1]]+out[name[0]]
 # print(out)
 # ******************************************
-n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org','henry.org'
-out={}
-for i in n:
-    name=i.split('.')
-    if name[i][-1] not in out:
-        out[name[i][-1]]=name[i][0]
-    else:
-        out[name[i][-1]]=out[name[i][-1]]+out[name[i][0]]
-print(out)
+# n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org','henry.org'
+# out={}
+# for i in n:
+#     name=i.split('.')
+#     if name[i][-1] not in out:
+#         out[name[i][-1]]=name[i][0]
+#     else:
+#         out[name[i][-1]]=out[name[i][-1]]+out[name[i][0]]
+# print(out)
 
 
 # 25. v={'a':'apple', 'm':'mon=ika','k':'kanya'}  output={'apple':'a','monika':'m','kanya':'k'}
