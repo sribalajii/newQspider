@@ -913,18 +913,19 @@
 #         print(i,j)
 #
 #2. wapt check the given is strong number or not?
-# n=int((input("enter a number: ")))
-# fact=1
-# sum=0
-# for i in n:
-#     for j in (1,int(i)):
-#         fact=fact*int(j)
-#         sum=sum+fact
-#         print(fact)
-# if fact==n:
-#     print(f"it strong  number {n}")
-# else:
-#     print(f"it not strong number {n}")
+n=int((input("enter a number: ")))
+fact=1
+sum=0
+for i in str(n):
+
+    for j in (1,int(i)):
+        fact=fact*int(j)
+        sum=sum+fact
+        print(fact)
+if fact==n:
+    print(f"it strong  number {n}")
+else:
+    print(f"it not strong number {n}")
 
 n=int(input("Enter The Number: "))
 prod=1
