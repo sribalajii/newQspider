@@ -906,7 +906,7 @@
 #
 
 
-# ****************************************[NESTED - FOR LOOP]********************************
+#****************************************[NESTED - FOR LOOP]********************************
 # 1.
 # for i in range(1,5):
 #     for j in range(1,4):
@@ -935,14 +935,25 @@
 #
 #
 #  3.wapt  following output, n=[12,'program','ramu',5.7,9.8,'sathya'], out=['program':'oa','ramu':'au','sathya':'aa']
-n=[12,'program','ramu',5.7,9.8,'sathya']
-out={}
+# n=[12,'program','ramu',5.7,9.8,'sathya']
+# out={}
+# for i in n:
+#     if type(i)==str:
+#         vowel=''
+#         for j in i:
+#             if j in 'aeiouAEIOU':
+#                 vowel+=j
+#         out[i]=vowel
+# print(out)
+
+# 4. WAPT following output: n=[10,13,4,6] output=[23,20,29,27]
+n=[10,13,4,6]
+out=[]
 for i in n:
-    if type(i)==str:
-        vowel=''
-        for j in i:
-            if j in 'aeiouAEIOU':
-                vowel+=j
-        out[i]=vowel
+    sum=0
+    for j in n:
+        if j!=i:
+            sum+=j
+    out.append(sum)
 print(out)
 
