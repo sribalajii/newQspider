@@ -958,17 +958,17 @@
 # print(out)
 #
 # 5. wpat to get the following  output, l=[1000,700,100,900,200,300] out=[[1000],[700,100],[100,900]]
-l=[1000,700,100,900,200,300]
-out=[]
-for i in range(0,len(l)):
-    if l[i]==1000:
-        out.append([l[i]])
-    else:
-        for j in range(i+1,len(l)):
-            if l[i]+l[j]==1000:
-                out+=([l[i],l[j]])
-print(out)
-
+# l=[1000,700,100,900,200,300]
+# out=[]
+# for i in range(0,len(l)):
+#     if l[i]==1000:
+#         out.append([l[i]])
+#     else:
+#         for j in range(i+1,len(l)):
+#             if l[i]+l[j]==1000:
+#                 out.append([l[i],l[j]])
+# print(out)
+#
 
 
 # out=[]
