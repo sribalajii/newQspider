@@ -980,8 +980,15 @@
 # print(out)
 
 # 6. wapt mirror n=[1,2,3,3,2,1]
-n=[1,2,3,3,2,1]
-if n[:len(n)//2]==n[len(n)//2::][::-1]:
-    print("it's mirror")
-else:
-    print("it's not  mirror")
+# n=[1,2,3,3,2,1]
+# if n[:len(n)//2]==n[len(n)//2::][::-1]:
+#     print("it's mirror")
+# else:
+#     print("it's not  mirror")
+
+# 7. wapt gcd of 2number
+a=int(input('a:'))
+b=int(input("b:"))
+while b!=0:
+    a,b=b, a%b
+    print(a)
