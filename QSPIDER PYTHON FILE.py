@@ -930,15 +930,19 @@
 #     print(f"it not strong number {n}")
 #
 # n=int(input("Enter The Number: "))
-# prod=1
+#
 # sum=1
-# for i in range (1,n+1):#n+1 facts format
-#     prod=prod*i
-#     for j in range(1,n+1):
-#         prod=prod*j
-#         for k in range(1,n+1):
-#             prod=prod*k
 #
 #
-#
-#
+#  3.wapt  following output, n=[12,'program','ramu',5.7,9.8,'sathya'], out=['program':'oa','ramu':'au','sathya':'aa']
+n=[12,'program','ramu',5.7,9.8,'sathya']
+out={}
+for i in n:
+    if type(i)==str:
+        vowel=''
+        for j in i:
+            if j in 'aeiouAEIOU':
+                vowel+=j
+        out[i]=vowel
+print(out)
+
