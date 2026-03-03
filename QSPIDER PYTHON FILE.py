@@ -970,7 +970,7 @@
 # print(out)
 #
 
-
+#
 # out=[]
 # for i in l:
 #     sum=0
@@ -978,3 +978,10 @@
 #         sum+=i
 #     out.append(sum)
 # print(out)
+
+# 6. wapt mirror n=[1,2,3,3,2,1]
+n=[1,2,3,3,2,1]
+if n[:len(n)//2]==n[len(n)//2::][::-1]:
+    print("it's mirror")
+else:
+    print("it's not  mirror")
