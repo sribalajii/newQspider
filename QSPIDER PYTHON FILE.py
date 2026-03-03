@@ -947,13 +947,34 @@
 # print(out)
 
 # 4. WAPT following output: n=[10,13,4,6] output=[23,20,29,27]
-n=[10,13,4,6]
+# n=[10,13,4,6]
+# out=[]
+# for i in n:
+#     sum=0
+#     for j in n:
+#         if j!=i:
+#             sum+=j
+#     out.append(sum)
+# print(out)
+#
+# 5. wpat to get the following  output, l=[1000,700,100,900,200,300] out=[[1000],[700,100],[100,900]]
+l=[1000,700,100,900,200,300]
 out=[]
-for i in n:
-    sum=0
-    for j in n:
-        if j!=i:
-            sum+=j
-    out.append(sum)
+for i in range(0,len(l)):
+    if l[i]==1000:
+        out.append([l[i]])
+    else:
+        for j in range(i+1,len(l)):
+            if l[i]+l[j]==1000:
+                out+=([l[i],l[j]])
 print(out)
 
+
+
+# out=[]
+# for i in l:
+#     sum=0
+#     if l[i]+l[i][1]==1000:
+#         sum+=i
+#     out.append(sum)
+# print(out)
