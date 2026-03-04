@@ -1005,10 +1005,20 @@
 #     print()
 
 # 2. wapt p. lower pattern
+# n=int(input("enter a number: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i>j:
+#             print("*",end=" ")
+#         else:
+#             print("_",end=" ")
+#     print()
+
+# 3. wapt p. upper pattern
 n=int(input("enter a number: "))
 for i in range(1,n+1):
     for j in range(1,n+1):
-        if i>j:
+        if i<j:
             print("*",end=" ")
         else:
             print("_",end=" ")
