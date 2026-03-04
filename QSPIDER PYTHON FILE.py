@@ -1031,13 +1031,23 @@
 # ! ! @ # #
 # ! ! ! @ #
 # ! ! ! ! @
-n=int(input("enter a number: "))
+# n=int(input("enter a number: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==j:
+#             print("@",end=" ")
+#         elif i<j:
+#             print("#",end=" ")
+#         else:
+#             print("!",end=" ")
+#     print()
+
+# 5. wapt following pattern s. diagonal:
+n=7
 for i in range(1,n+1):
     for j in range(1,n+1):
-        if i==j:
-            print("@",end=" ")
-        elif i<j:
-            print("#",end=" ")
+        if i+j==n+1:
+            print('*',end=" ")
         else:
-            print("!",end=" ")
+            print("", end=" ")
     print()
