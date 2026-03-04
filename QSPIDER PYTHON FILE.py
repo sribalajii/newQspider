@@ -1061,6 +1061,7 @@ for i in range(1,n+1):
         else:
             print("", end=' ')
     print()
+
 # 7 . wapt following pattern s. diagonal:
 n=7
 for i in range(1,n+1):
