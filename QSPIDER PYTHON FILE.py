@@ -987,10 +987,20 @@
 #     print("it's not  mirror")
 
 # 7. wapt gcd of 2number
-a=int(input('a:'))
-b=int(input("b:"))
-while b!=0:
-    a,b=b, a%b
-    print(a)
+# a=int(input('a:'))
+# b=int(input("b:"))
+# while b!=0:
+#     a,b=b, a%b
+#     print(a)
 
 # *************************************[Pattern Programming]*******************************
+# 1.wapt primary diagonal:
+n=int(input("enter a number: "))
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i==j:
+            print("*",end=" ")
+        else:
+            print("",end=" ")
+    print()
+
