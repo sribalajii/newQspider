@@ -994,13 +994,22 @@
 #     print(a)
 
 # *************************************[Pattern Programming]*******************************
-# 1.wapt primary diagonal:
+# 1.wapt primary diagonal:   # primary diagonal= i==j  , # p.lower= i>j , p.upper=i<j,  secorday daigonal= i+j==n+1, s.lower= i+j>n+1 , s.upper= i+j<n+1
+# n=int(input("enter a number: "))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==j:
+#             print("*",end=" ")
+#         else:
+#             print("_",end=" ")
+#     print()
+
+# 2. wapt p. lower pattern
 n=int(input("enter a number: "))
 for i in range(1,n+1):
     for j in range(1,n+1):
-        if i==j:
+        if i>j:
             print("*",end=" ")
         else:
-            print("",end=" ")
+            print("_",end=" ")
     print()
-
