@@ -1043,6 +1043,13 @@
 #     print()
 
 # 5. wapt following pattern s. diagonal:
+#       *
+#      *
+#     *
+#    *
+#   *
+#  *
+# *
 n=7
 for i in range(1,n+1):
     for j in range(1,n+1):
@@ -1053,6 +1060,12 @@ for i in range(1,n+1):
     print()
 
 # 6 . wapt following pattern s. diagonal: upper:
+# @ @ @ @ @ @
+# @ @ @ @ @
+# @ @ @ @
+# @ @ @
+# @ @
+# @
 n=7
 for i in range(1,n+1):
     for j in range(1,n+1):
@@ -1063,6 +1076,13 @@ for i in range(1,n+1):
     print()
 
 # 7 . wapt following pattern s. diagonal:
+# 1 1 1 1 1 1 #
+# 1 1 1 1 1 # 0
+# 1 1 1 1 # 0 0
+# 1 1 1 # 0 0 0
+# 1 1 # 0 0 0 0
+# 1 # 0 0 0 0 0
+# # 0 0 0 0 0 0
 n=7
 for i in range(1,n+1):
     for j in range(1,n+1):
@@ -1075,6 +1095,11 @@ for i in range(1,n+1):
     print()
 
 # 8. wapt following pattern.
+# # # # #
+#       #
+#       #
+#       #
+# # # # #
 n=5
 for i in range(1,n+1):
     for j in range(1,n+1):
@@ -1083,7 +1108,13 @@ for i in range(1,n+1):
         else:
             print("",end="  ")
     print()
+
 # 9.wapt following pattern.
+# *    *
+#  *  *
+#   *
+#  *  *
+# *    *
 n=5
 for i in range(1,n+1):
     for j in range(1,n+1):
@@ -1091,4 +1122,33 @@ for i in range(1,n+1):
             print("*",end=" ")
         else:
             print("",end=" ")
+    print()
+
+# 10. *
+#     *
+# * * * * *
+#     *
+#     *
+
+n=5
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i==1 or j==n//2+1:
+            print("*",end=" ")
+        elif i==n//2+1 or j==3:
+            print("",end=" ")
+    print()
+
+# 11. *
+#     *
+# * * * * *
+#     *
+#     *
+n=5
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i==3 or j==3:
+            print("*",end=" ")
+        else:
+            print("",end="  ")
     print()
