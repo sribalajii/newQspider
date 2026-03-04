@@ -1051,3 +1051,24 @@ for i in range(1,n+1):
         else:
             print("", end=" ")
     print()
+
+# 6 . wapt following pattern s. diagonal: upper:
+n=7
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i+j<n+1:
+            print("@",end=" ")
+        else:
+            print("", end=' ')
+    print()
+# 7 . wapt following pattern s. diagonal:
+n=7
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i+j==n+1:
+            print("#",end=" ")
+        elif i+j<n+1:
+            print("1",end=" ")
+        else:
+            print("0",end=" ")
+    print()
