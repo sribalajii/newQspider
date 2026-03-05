@@ -1050,14 +1050,14 @@
 #   *
 #  *
 # *
-n=7
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i+j==n+1:
-            print('*',end=" ")
-        else:
-            print("", end=" ")
-    print()
+# n=7
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i+j==n+1:
+#             print('*',end=" ")
+#         else:
+#             print("", end=" ")
+#     print()
 
 # 6 . wapt following pattern s. diagonal: upper:
 # @ @ @ @ @ @
@@ -1066,14 +1066,14 @@ for i in range(1,n+1):
 # @ @ @
 # @ @
 # @
-n=7
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i+j<n+1:
-            print("@",end=" ")
-        else:
-            print("", end=' ')
-    print()
+# n=7
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i+j<n+1:
+#             print("@",end=" ")
+#         else:
+#             print("", end=' ')
+#     print()
 
 # 7 . wapt following pattern s. diagonal:
 # 1 1 1 1 1 1 #
@@ -1083,16 +1083,16 @@ for i in range(1,n+1):
 # 1 1 # 0 0 0 0
 # 1 # 0 0 0 0 0
 # # 0 0 0 0 0 0
-n=7
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i+j==n+1:
-            print("#",end=" ")
-        elif i+j<n+1:
-            print("1",end=" ")
-        else:
-            print("0",end=" ")
-    print()
+# n=7
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i+j==n+1:
+#             print("#",end=" ")
+#         elif i+j<n+1:
+#             print("1",end=" ")
+#         else:
+#             print("0",end=" ")
+#     print()
 
 # 8. wapt following pattern.
 # # # # #
@@ -1100,14 +1100,14 @@ for i in range(1,n+1):
 #       #
 #       #
 # # # # #
-n=5
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i==1 or j==1 or i==5 or j==5:
-            print("#",end=" ")
-        else:
-            print("",end="  ")
-    print()
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==1 or j==1 or i==5 or j==5:
+#             print("#",end=" ")
+#         else:
+#             print("",end="  ")
+#     print()
 
 
 # 9.wapt following pattern.
@@ -1116,14 +1116,14 @@ for i in range(1,n+1):
 #   *
 #  *  *
 # *    *
-n=5
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i==j or i+j==n+1:
-            print("*",end=" ")
-        else:
-            print("",end=" ")
-    print()
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==j or i+j==n+1:
+#             print("*",end=" ")
+#         else:
+#             print("",end=" ")
+#     print()
 
 
 # 10. *  for center we take like. i==n//2+1
@@ -1132,29 +1132,29 @@ for i in range(1,n+1):
 #     *
 #     *
 
-n=5
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i==1 or j==n//2+1:
-            print("*",end=" ")
-        elif i==n//2+1 or j==3:
-            print("",end=" ")
-    print()
-
-# 11. *
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==1 or j==n//2+1:
+#             print("*",end=" ")
+#         elif i==n//2+1 or j==3:
+#             print("",end=" ")
+#     print()
+#
+# # 11. *
 #     *
 # * * * * *
 #     *
 #     *
-n=5
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i==3 or j==3:
-            print("*",end=" ")
-        else:
-            print("",end="  ")
-    print()
-
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==3 or j==3:
+#             print("*",end=" ")
+#         else:
+#             print("",end="  ")
+#     print()
+#
 
 # 11
 # n=9
@@ -1175,11 +1175,12 @@ for i in range(1,n+1):
 # #   #   #   #   #
 # # #     #     # #
 # # # # # # # # # #
-n=9
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i==n or i==1 or j==1 or j==n or i==n//2+1 or j==n//2+1 or i==j or i+j==n+1:
-            print('#',end=' ')
-        else:
-            print(' ',end=' ')
-    print()
+# n=9
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==n or i==1 or j==1 or j==n or i==n//2+1 or j==n//2+1 or i==j or i+j==n+1:
+#             print('#',end=' ')
+#         else:
+#             print(' ',end=' ')
+#     print()
+
