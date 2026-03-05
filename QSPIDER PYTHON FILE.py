@@ -1250,3 +1250,18 @@
 #            print(j,end=" ")
 #     print()
 
+# 17.
+# 61
+# 61 62
+# 61 62 63
+# 61 62 63 64
+# 61 62 63 64 65
+n=6
+for i in range(1,n+1):
+    k=61
+    for j in range(1,n+1):
+        if i>j:
+           print(k,end=" ")
+           k+=1
+    print()
+
