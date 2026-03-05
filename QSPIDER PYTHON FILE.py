@@ -1191,22 +1191,28 @@
 #   *    *
 #  *       *
 # * * * * * *
-n=9
+# n=9
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==5:
+#             print("*",end=" ")
+#         elif i==1 and j==5:
+#             print("*", end=" ")
+#         elif i==2 and j in [4,6]:
+#             print("*", end=" ")
+#         elif i==3 and j in [3,7]:
+#             print("*", end=" ")
+#         elif i==4 and j in [2,8]:
+#             print("*", end=" ")
+#         else:
+#             print("",end=" ")
+#     print()
+
+# 14.
+n=6
+m=5
 for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i==5:
-            print("*",end=" ")
-        elif i==1 and j==5:
-            print("*", end=" ")
-        elif i==2 and j in [4,6]:
-            print("*", end=" ")
-        elif i==3 and j in [3,7]:
-            print("*", end=" ")
-        elif i==4 and j in [2,8]:
-            print("*", end=" ")
-        else:
-            print("",end=" ")
+    for j in range(1,m+1):
+        print(i,j ,end=" ")
     print()
-
-
 
