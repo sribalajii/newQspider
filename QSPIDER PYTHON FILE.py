@@ -1271,9 +1271,40 @@
 # 4 5 6
 # 3 4 5 6
 # 2 3 4 5 6
+# n=6
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i+j>n+1:
+#            print(j,end=" ")
+#         else:
+#             print("", end=" ")
+#     print()
+
+# 19.
+#   A B C D E
+#     A B C D
+#       A B C
+#         A B
+#           A
+# n=6
+# for i in range(1,n+1):
+#     k=65
+#     for j in range(1,n+1):
+#
+#         if i<=j:
+#
+#            print(chr (k),end=" ")
+#            k+=1
+#         else:
+#             print(" ",end=" ")
+#
+#     print()
+
+# 20.
 n=6
 for i in range(1,n+1):
     for j in range(1,n+1):
-        if i+j>n+1:
+        if i>j:
            print(j,end=" ")
+
     print()
