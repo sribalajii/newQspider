@@ -1309,3 +1309,25 @@ n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','j
 #            print(j,end=" ")
 #
 #     print()
+
+# 21.
+n=5
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if j==1 or j==5 or i==3:
+           print('*',end=" ")
+        elif i==1 and j==2 :
+            print('*', end=" ")
+        elif  i== 1 and j==3:
+            print('*', end=" ")
+        elif i==1 and j==4:
+
+            print('*', end=" ")
+
+        else:
+            print(" ",end=" ")
+
+    print()
+
+
+# (j==1 and i>1) (j==5 and i>1) (i==1 and 1<j<5) i==n//2+1
