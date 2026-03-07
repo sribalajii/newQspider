@@ -1330,4 +1330,12 @@ for i in range(1,n+1):
     print()
 
 
-# (j==1 and i>1) (j==5 and i>1) (i==1 and 1<j<5) i==n//2+1
+n=int(input("no: "))
+for i in range(1,n+1):
+    for j in range(1, n + 1):
+        if  (i==1 and 1<j<n) or (j==1 and 1<i) or (j==n and 1<i) or (i==n//2+1):
+            print("*",end=" ")
+        else:
+           print(" " ,end=" ")
+
+    print()
