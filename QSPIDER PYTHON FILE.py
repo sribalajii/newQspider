@@ -843,7 +843,7 @@
 
 # 24. wapt get output like: =('google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org')
 # # out={'com':{"google","amazon","anajali"}}, 'in':{"yahoo","priya"},org:{"python","java"}
-# n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org'
+n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org'
 # out={}
 # for i in n:
 #     i=i.split('.')
@@ -855,14 +855,14 @@
 #         out[i][-1]=i[0]
 # print(out)
 # ***************same progarm with diff program
-# out={}
-# for i in n:
-#     name=i.split('.')
-#     if name[-1] not in out:
-#         out [name[-1]]=name[0]
-#     else:
-#         out[name[-1]]=out[name[-1]]+out[name[0]]
-# print(out)
+out={}
+for i in n:
+    name=i.split('.')
+    if name[-1] not in out:
+        out [name[-1]]=name[0]
+    else:
+        out[name[-1]]=out[name[-1]]
+print(out)
 # ******************************************
 # n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org','henry.org'
 # out={}
@@ -1302,10 +1302,10 @@
 
 
 # 20.
-n=6
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i>j:
-           print(j,end=" ")
-
-    print()
+# n=6
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i>j:
+#            print(j,end=" ")
+#
+#     print()
