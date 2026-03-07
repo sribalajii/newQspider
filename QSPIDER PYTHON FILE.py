@@ -855,14 +855,14 @@ n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','j
 #         out[i][-1]=i[0]
 # print(out)
 # ***************same progarm with diff program
-out={}
-for i in n:
-    name=i.split('.')
-    if name[-1] not in out:
-        out [name[-1]]=name[0]
-    else:
-        out[name[-1]]=out[name[-1]]
-print(out)
+# out={}
+# for i in n:
+#     name=i.split('.')
+#     if name[-1] not in out:
+#         out [name[-1]]=name[0]
+#     else:
+#         out[name[-1]]=out[name[-1]]
+# print(out)
 # ******************************************
 # n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','java.org','henry.org'
 # out={}
