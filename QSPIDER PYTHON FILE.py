@@ -1328,7 +1328,11 @@ n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','j
 #             print(" ",end=" ")
 #
 #     print()
-#
+#   * * *
+# *       *
+# * * * * *
+# *       *
+# *       *
 #
 # n=int(input("no: "))
 # for i in range(1,n+1):
@@ -1340,7 +1344,12 @@ n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','j
 #
 #     print()
 
-
+# 22.
+#   * * *
+# *       *
+# *       *
+# *       *
+# * * * * *
 n=int(input("no: "))
 for i in range(1,n+1):
     for j in range(1, n + 1):
