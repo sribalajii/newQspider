@@ -1310,32 +1310,32 @@ n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','j
 #
 #     print()
 
-# 21.
-n=5
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if j==1 or j==5 or i==3:
-           print('*',end=" ")
-        elif i==1 and j==2 :
-            print('*', end=" ")
-        elif  i== 1 and j==3:
-            print('*', end=" ")
-        elif i==1 and j==4:
-
-            print('*', end=" ")
-
-        else:
-            print(" ",end=" ")
-
-    print()
-
-
-n=int(input("no: "))
-for i in range(1,n+1):
-    for j in range(1, n + 1):
-        if  (i==1 and 1<j<n) or (j==1 and 1<i) or (j==n and 1<i) or (i==n//2+1):
-            print("*",end=" ")
-        else:
-           print(" " ,end=" ")
-
-    print()
+# # 21.
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if j==1 or j==5 or i==3:
+#            print('*',end=" ")
+#         elif i==1 and j==2 :
+#             print('*', end=" ")
+#         elif  i== 1 and j==3:
+#             print('*', end=" ")
+#         elif i==1 and j==4:
+#
+#             print('*', end=" ")
+#
+#         else:
+#             print(" ",end=" ")
+#
+#     print()
+#
+#
+# n=int(input("no: "))
+# for i in range(1,n+1):
+#     for j in range(1, n + 1):
+#         if  (i==1 and 1<j<n) or (j==1 and 1<i) or (j==n and 1<i) or (i==n//2+1):
+#             print("*",end=" ")
+#         else:
+#            print(" " ,end=" ")
+#
+#     print()
