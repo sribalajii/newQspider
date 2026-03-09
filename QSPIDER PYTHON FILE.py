@@ -1344,6 +1344,7 @@ n='google.com','yahoo.in', 'priya.in','amazon.com','anajali.com','python.org','j
 #
 #     print()
 
+
 # 22.
 #   * * *
 # *       *
