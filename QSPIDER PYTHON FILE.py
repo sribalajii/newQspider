@@ -1473,13 +1473,13 @@
 # *   * * *
 # *         *
 #     * * *
-n=5
-for i in range(1,n+1):
-    for j in range(1+n+1):
-        if (j==0 and 1<i<n) or (i==1 and j<n) or (i==n and 1<j<n)or (i==3 and 1<j<n) or (j==n and i==4):
-            print("*",end=" ")
-        else:
-            print(" ",end=" ")
-    print()
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1+n+1):
+#         if (j==0 and 1<i<n) or (i==1 and j<n) or (i==n and 1<j<n)or (i==3 and 1<j<n) or (j==n and i==4):
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
 
 
