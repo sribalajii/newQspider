@@ -1352,18 +1352,28 @@
 # *       *
 #   * * *
 
-n=int(input("no: "))
+# n=int(input("no: "))
+# for i in range(1,n+1):
+#     for j in range(1, n + 1):
+#         if  (j==1 and 1<i<5) or (i==n and 1<j<5) or (j==n and 1<i<5) or (i==1 and 1<j<5):
+#             print("*",end=" ")
+#         else:
+#            print(" " ,end=" ")
+#
+#     print()
+
+
+# 23.
+#   *       *
+#   * *     *
+#   *   *   *
+#   *     * *
+#   *       *
+n=5
 for i in range(1,n+1):
-    for j in range(1, n + 1):
-        if  (j==1 and 1<i<5) or (i==n and 1<j<5) or (j==n and 1<i<5) or (i==1 and 1<j<5):
+    for j in range(1+n+1):
+        if i==j or j==1 or j==5:
             print("*",end=" ")
         else:
-           print(" " ,end=" ")
-
+            print(" ", end=" ")
     print()
-
-
-# (j==2 and 1<i<5) or (i==5 and 1<j<5) or (j==5 and 1<j<5)
-
-
-# 23
