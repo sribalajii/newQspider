@@ -1449,5 +1449,20 @@
 #         if (j==0 or i==1) or i==5 or (i==3 and j<n):
 #             print("*",end=" ")
 #         else:
-#             print(" ",end=" ")
+#             print("",end=" ")
 #     print()
+
+# 29.
+# * * * * *
+#   *       *
+#   *       *
+#   *       *
+# * * * * *
+n=5
+for i in range(1,n+1):
+    for j in range(1+n+1):
+        if (j==n and 1<i<n) or (j==1 and i<n) or (i==n and j<n) or (i==1 and j<n):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
