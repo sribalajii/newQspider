@@ -1488,7 +1488,7 @@
 #     print()
 
 # ***********************************[new topic]*************************
-# 1.
+# 1. sequentail number
 # n=int(input("enter a number: "))
 # a=0
 # b=1
@@ -1497,6 +1497,7 @@
 #     print(a , end=" ")
 #     c=a+b
 #     a,b=b,c
+
 
 # 2.prime number:
 n=int(input("enter a number: "))
