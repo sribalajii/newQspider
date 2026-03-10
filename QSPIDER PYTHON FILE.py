@@ -1499,7 +1499,7 @@
 #     a,b=b,c
 
 
-# 2.prime number:
+# 2.WAPT FIND prime number:
 # n=int(input("enter a number: "))
 # if n%2!=0 and n%n==0:
 #     print(f"its prime number{n}")
@@ -1507,7 +1507,7 @@
 #     print(f"its not prime number{n}")
 
 
-# 3
+# 3.WAPT FIND prime number:
 # n = int(input("enter a number: "))
 # for i in range(2,n):
 #     if n%i==0:
@@ -1516,4 +1516,4 @@
 # else:
 #     print(" its prime number")
 
-# 4  frequency words:
+# 4. WAPT find  frequency of the words:
