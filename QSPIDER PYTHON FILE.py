@@ -1531,19 +1531,40 @@
 
 # from collections import Counter
 # 5 wapt check the given number is smith number or not:
-n=int(input("enter a number"))
-sum=0
-prod = 1
+# n=int(input("enter a number"))
+# sum=0
+# prod = 1
+# for i in str(n):
+#     sum+=(int(i))
+# print(sum)
+#
+# for i in range (1,int(n)+1):#n+1 facts format
+#     prod=prod*i
+# print(prod)
+#
+#
+
+
+
+n = int(input("Enter a number: "))
+
+# Step 1: Sum of digits of number
+digit_sum = 0
 for i in str(n):
-    sum+=(int(i))
-print(sum)
+    digit_sum += int(i)
 
-for i in range (1,int(n)+1):#n+1 facts format
-    prod=prod*i
-print(prod)
+# Step 2: Find prime factors and sum their digits
+temp = n
+factor_sum = 0
 
+for i in range(2, n+1):
+    while temp % i == 0:
+        for j in str(i):
+            factor_sum += int(j)
+        temp = temp // i
 
-
-
-
-
+# Step 3: Check Smith number
+if digit_sum == factor_sum:
+    print("Smith Number")
+else:
+    print("Not a Smith Number")
