@@ -1488,7 +1488,7 @@
 #     print()
 
 # ***********************************[new topic]*************************
-# 1. sequentail number
+# 1. sequential number
 # n=int(input("enter a number: "))
 # a=0
 # b=1
