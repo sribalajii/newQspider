@@ -1531,5 +1531,19 @@
 
 # from collections import Counter
 # 5 wapt check the given number is smith number or not:
+n=int(input("enter a number"))
+sum=0
+prod = 1
+for i in str(n):
+    sum+=(int(i))
+print(sum)
+
+for i in range (1,int(n)+1):#n+1 facts format
+    prod=prod*i
+print(prod)
+
+
+
+
 
 
