@@ -1487,4 +1487,20 @@
 #             print(" ",end=" ")
 #     print()
 
+# ***********************************[new topic]*************************
+# 1.
+# n=int(input("enter a number: "))
+# a=0
+# b=1
+# for i in range(1,n+1):
+#
+#     print(a , end=" ")
+#     c=a+b
+#     a,b=b,c
 
+# 2.prime number:
+n=int(input("enter a number: "))
+if n%2!=0 and n%n==0:
+    print(f"its prime number{n}")
+else:
+    print(f"its not prime number{n}")
