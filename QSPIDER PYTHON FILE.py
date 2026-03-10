@@ -1517,3 +1517,14 @@
 #     print(" its prime number")
 
 # 4. WAPT find  frequency of the words:
+n='forger in land in ranger'
+s=n.split()
+
+out={}
+for i in s:
+    if i not in out:
+        out[i]=1
+    else:
+        out[i]=out[i]+1
+print(out)
+
