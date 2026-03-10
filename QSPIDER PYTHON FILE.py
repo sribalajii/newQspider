@@ -1500,8 +1500,20 @@
 
 
 # 2.prime number:
-n=int(input("enter a number: "))
-if n%2!=0 and n%n==0:
-    print(f"its prime number{n}")
-else:
-    print(f"its not prime number{n}")
+# n=int(input("enter a number: "))
+# if n%2!=0 and n%n==0:
+#     print(f"its prime number{n}")
+# else:
+#     print(f"its not prime number{n}")
+
+
+# 3
+# n = int(input("enter a number: "))
+# for i in range(2,n):
+#     if n%i==0:
+#         print("it not prime number ")
+#         break
+# else:
+#     print(" its prime number")
+
+# 4  frequency words:
