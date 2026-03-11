@@ -3,6 +3,7 @@
 # b=int(input("enter the number :"))
 # print(a+b)
 # print(f"the total value is {a+b}")
+from os import remove
 
 # 2. WAPTF the square of the number:
 # c=int(input("enter the number :"))
@@ -1570,3 +1571,10 @@
 #     print("Not a Smith Number")
 
 # 7. K-th number:
+n=197
+sum=0
+for i in str(n):
+    sum+=int(i)
+print(sum)
+
+
