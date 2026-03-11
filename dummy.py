@@ -11,16 +11,17 @@
 # # if x > 4:
 # #     print("B")
 
-n=eval(input("enter a number: "))
-sum=0
-for i in str(n):
-    fact=1
-    for j in range(1,int(i)+1):
-        fact=fact*j
-    sum+=fact
-if sum==n:
-    print("strong number")
-else:
-    print("not strong number")
+# n=eval(input("enter a number: "))
+# sum=0
+# for i in str(n):
+#     fact=1
+#     for j in range(1,int(i)+1):
+#         fact=fact*j
+#     sum+=fact
+# if sum==n:
+#     print("strong number")
+# else:
+#     print("not strong number")
+
 
 
