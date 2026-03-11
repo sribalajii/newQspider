@@ -1545,26 +1545,27 @@
 #
 
 
-#6. smith number finder:
-n = int(input("Enter a number: "))
+# #6. smith number finder:
+# n = int(input("Enter a number: "))
+#
+# # Step 1: Sum of digits of number
+# digit_sum = 0
+# for i in str(n):
+#     digit_sum += int(i)
+#
+# # Step 2: Find prime factors and sum their digits
+# temp = n
+# factor_sum = 0
+#
+# for i in range(2, n+1):
+#     while temp % i == 0:
+#         for j in str(i):
+#             factor_sum += int(j)
+#         temp = temp // i
+#
+# # Step 3: Check Smith number
+# if digit_sum == factor_sum:
+#     print("Smith Number")
+# else:
+#     print("Not a Smith Number")
 
-# Step 1: Sum of digits of number
-digit_sum = 0
-for i in str(n):
-    digit_sum += int(i)
-
-# Step 2: Find prime factors and sum their digits
-temp = n
-factor_sum = 0
-
-for i in range(2, n+1):
-    while temp % i == 0:
-        for j in str(i):
-            factor_sum += int(j)
-        temp = temp // i
-
-# Step 3: Check Smith number
-if digit_sum == factor_sum:
-    print("Smith Number")
-else:
-    print("Not a Smith Number")
