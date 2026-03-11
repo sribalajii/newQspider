@@ -1569,3 +1569,4 @@
 # else:
 #     print("Not a Smith Number")
 
+# 7. K-th number:
