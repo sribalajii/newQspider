@@ -1545,7 +1545,7 @@
 #
 
 
-
+#6. smith number finder:
 n = int(input("Enter a number: "))
 
 # Step 1: Sum of digits of number
