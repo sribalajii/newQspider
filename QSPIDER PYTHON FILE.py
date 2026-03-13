@@ -1580,13 +1580,13 @@ from os import remove
 
 # KEPPAKAR NUMBER
 
-n=int(input("number: "))
-v=n**2
-sum=0
-for i in str(v):
-    sum+=int(i)
-    print(sum)
-if sum==n:
-    print("keppakkaer")
-else:
-    print("not ")
+# n=int(input("number: "))
+# v=n**2
+# sum=0
+# for i in str(v):
+#     sum+=int(i)
+#     print(sum)
+# if sum==n:
+#     print("keppakkaer")
+# else:
+#     print("not ")

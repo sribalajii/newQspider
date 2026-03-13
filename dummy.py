@@ -22,6 +22,39 @@
 #     print("strong number")
 # else:
 #     print("not strong number")
+# **********************************************[hackathon]***********************
+# 1. dummy
+# i=0
+# while i<10:
+#     print("i attend the class")
+#     i+=1
 
+# 2. N. natural number:
+# n=int(input("number: "))
+# i=1
+# while i<n:
+#     if i%2==0:
+#         print(i,"even")
+#     i+=1
 
+# 3. to extract the number form 1 to n:
+# n=int(input("number: "))
+# i=1
+# while i<n:
+#     print(i)
+#     i+=1
 
+# 4.reverse the number from n:
+# n=int(input("number: "))
+# i=10
+# while i>n:
+#     print(i)
+#     i-=1
+
+# 5. ask password until correct:
+pd=1234
+u=int(input("pd: "))
+i=1
+while u!=pd:
+    u=int(input("pd wrong. try again: "))
+print("pd correct")
