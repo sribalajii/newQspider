@@ -80,3 +80,20 @@
 #     if i%2==0 and i%5==0:
 #         print(i)
 #     i+=1
+
+# 8. prime number:
+num=int(input("enter anum: "))
+if num==1:
+    print("it's not prime number")
+elif num>1:
+    for i in range(2,num):
+        if num%i==0:
+            print("it's not prime number")
+            break
+    else:
+            print("it's prime number")
+
+else:
+    print("it's not prime number ")
+
+
