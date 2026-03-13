@@ -82,18 +82,28 @@
 #     i+=1
 
 # 8. prime number:
-num=int(input("enter anum: "))
-if num==1:
-    print("it's not prime number")
-elif num>1:
-    for i in range(2,num):
-        if num%i==0:
-            print("it's not prime number")
+# num=int(input("enter anum: "))
+# if num==1:
+#     print("it's not prime number")
+# elif num>1:
+#     for i in range(2,num):
+#         if num%i==0:
+#             print("it's not prime number")
+#             break
+#     else:
+#             print("it's prime number")
+#
+# else:
+#     print("it's not prime number ")
+
+
+n=int(input("n:"))
+if n==1:
+    print("not")
+elif n>1:
+    for i in range(2,n):
+        if n%i==0:
+            print("not")
             break
     else:
-            print("it's prime number")
-
-else:
-    print("it's not prime number ")
-
-
+        print("prime")
