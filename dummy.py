@@ -58,3 +58,21 @@
 # while u!=pd:
 #     u=int(input("pd wrong. try again: "))
 # print("pd correct")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pd=1234
+u=int(input("pd: "))
