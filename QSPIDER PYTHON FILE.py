@@ -1571,10 +1571,22 @@ from os import remove
 #     print("Not a Smith Number")
 
 # 7. K-th number:
-n=197
+# n=197
+# sum=0
+# for i in str(n):
+#     sum+=int(i)
+# print(sum)
+
+
+# KEPPAKAR NUMBER
+
+n=int(input("number: "))
+v=n**2
 sum=0
-for i in str(n):
+for i in str(v):
     sum+=int(i)
-print(sum)
-
-
+    print(sum)
+if sum==n:
+    print("keppakkaer")
+else:
+    print("not ")
