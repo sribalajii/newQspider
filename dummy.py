@@ -66,10 +66,17 @@
 # print("pd is correct")
 
 # 6. wapt between 1 to n ,which are divide by 3&5:
-n=int(input("enter n: "))
-i=1
-while i<=n:
-    if i%3==0 and i%5==0:
-        print(i)
-    i+=1
+# n=int(input("enter n: "))
+# i=1
+# while i<=n:
+#     if i%3==0 and i%5==0:
+#         print(i)
+#     i+=1
 
+# 7. fetch the number between 1 and 100 , divided by 2 and 5:
+# n=100
+# i=1
+# while i<n:
+#     if i%2==0 and i%5==0:
+#         print(i)
+#     i+=1
