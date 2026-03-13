@@ -59,20 +59,8 @@
 #     u=int(input("pd wrong. try again: "))
 # print("pd correct")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pd=1234
-u=int(input("pd: "))
+# pd=1234
+# u=int(input("pd: "))
+# while u!=pd:
+#     u=int(input("wrong pd , try again: "))
+# print("pd is correct")
