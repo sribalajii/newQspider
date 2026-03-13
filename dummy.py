@@ -64,3 +64,12 @@
 # while u!=pd:
 #     u=int(input("wrong pd , try again: "))
 # print("pd is correct")
+
+# 6. wapt between 1 to n ,which are divide by 3&5:
+n=int(input("enter n: "))
+i=1
+while i<=n:
+    if i%3==0 and i%5==0:
+        print(i)
+i+=1
+
