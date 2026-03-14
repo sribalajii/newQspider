@@ -124,4 +124,21 @@
 # while i in range(1,11):
 #     print(i,"X",2,"=",i*2)
 #     i+=1
+# 9. reverse the order:
+# n=int(input("enter num: "))
+# rev=0
+# i=n
+# while i >0:
+#     ld=i%10
+#     rev=rev*10+ld
+#     i=i//10
+# print(rev)
+# n=int(input("num: "))
+# rev=0
+# i=n
+# while i>0:
+#     ld=i%10
+#     rev=rev*10+ld
+#     i=i//10
+# print(rev)
 
