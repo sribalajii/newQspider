@@ -164,3 +164,11 @@
 #     i=i//10
 # print(prod)
 
+# 12. sum natural num:
+# n=int(input("num: "))
+# i=1
+# sum=0
+# while i<(n+1):
+#     sum=sum+i
+#     i=i+1
+# print(sum)
