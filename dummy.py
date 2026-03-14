@@ -96,14 +96,41 @@
 # else:
 #     print("it's not prime number ")
 
+#
+# n=int(input("n:"))
+# if n==1:
+#     print("not")
+# elif n>1:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print("not")
+#             break
+#     else:
+#         print("prime")
 
-n=int(input("n:"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+n=int(input("enter a number: "))
 if n==1:
-    print("not")
+    print(f"it's not prime number {n}")
 elif n>1:
     for i in range(2,n):
         if n%i==0:
-            print("not")
+            print(f"it's not prime number {n}")
             break
     else:
-        print("prime")
+        print(f"it's prime number {n}")
+else:
+    print(f"it's not prime number {n}")
+
