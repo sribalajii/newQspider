@@ -142,3 +142,13 @@
 #     i=i//10
 # print(rev)
 
+
+# 10. sum individual  digits:
+# n=int(input("num: "))
+# rev=0
+# i=n
+# while i>0:
+#     ld=i%10
+#     rev=rev+ld
+#     i=i//10
+# print(rev)
