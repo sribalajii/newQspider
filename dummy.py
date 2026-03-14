@@ -152,3 +152,15 @@
 #     rev=rev+ld
 #     i=i//10
 # print(rev)
+# 11 find sum of even individual number:
+# n=int(input("num:"))
+# rev=0
+# prod=1
+# i=n
+# while i>0:
+#     ld=i%10
+#     if ld%2==0:
+#         prod=prod*ld
+#     i=i//10
+# print(prod)
+
