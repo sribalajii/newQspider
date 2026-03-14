@@ -107,30 +107,21 @@
 #             break
 #     else:
 #         print("prime")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-n=int(input("enter a number: "))
-if n==1:
-    print(f"it's not prime number {n}")
-elif n>1:
-    for i in range(2,n):
-        if n%i==0:
-            print(f"it's not prime number {n}")
-            break
-    else:
-        print(f"it's prime number {n}")
-else:
-    print(f"it's not prime number {n}")
+# n=int(input("enter a number: "))
+# if n==1:
+#     print(f"it's not prime number {n}")
+# elif n>1:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print(f"it's not prime number {n}")
+#             break
+#     else:
+#         print(f"it's prime number {n}")
+# else:
+#     print(f"it's not prime number {n}")
+# 8. 2nd table
+# i=1
+# while i in range(1,11):
+#     print(i,"X",2,"=",i*2)
+#     i+=1
 
