@@ -1594,6 +1594,6 @@ from os import remove
 # for i in set(n):
 #     print(i+str(n.count(i)),end="")
 
-n="11223334555"
-for i in set(n):
-    print(i+str(n.count(i)),end="")
+# n="11223334555"
+# for i in set(n):
+#     print(i+str(n.count(i)),end="")
