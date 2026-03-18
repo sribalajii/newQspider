@@ -1590,3 +1590,10 @@ from os import remove
 #     print("keppakkaer")
 # else:
 #     print("not ")
+# n="aaabbccab"
+# for i in set(n):
+#     print(i+str(n.count(i)),end="")
+
+n="11223334555"
+for i in set(n):
+    print(i+str(n.count(i)),end="")

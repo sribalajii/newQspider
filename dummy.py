@@ -188,3 +188,32 @@
 #     fact=fact*i
 #     i+=1
 # print(fact)
+
+n=int(input("num: "))
+sq=n*n
+sq=str(sq)
+m=len(sq)//2
+right=sq[:m]
+left=sq[m:]
+if int(right)+int(left)==n:
+    print("it's kaperkar number")
+else:
+    print("no")
+# n = int(input("num: "))
+# sq = n*n
+# sq = str(sq)
+# m = len(sq)//2
+# left = sq[:m]
+# right = sq[m:]
+# if int(left) + int(right) == n:
+#     print("It's Kaprekar number")
+# else:
+#     print("No")
+n=[1,2,3,2,4,1]
+out=()
+
+for i in n:
+    if n.count(i)>1:
+        out.add(i)
+
+print(out)
