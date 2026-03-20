@@ -1596,4 +1596,36 @@
 
 # n="11223334555"
 # for i in set(n):
-#     print(i+str(n.count(i)),end="")
+#     print(i+str(n.count(i)),end="")\
+
+
+# ***********************************[FUNCTIONS]*************************************************
+# # 1.
+# def bala():
+#     a=10
+#     b=20
+#     print(a+b)
+# bala()
+
+# wapt covert string into uppercase, count the number of occurenes to givn char.
+# def convert():
+#     a=input("enter string: ")
+#     for i in a:
+#         if 'a'<i<'z':
+#             chart=chr(ord(i)-32)
+#             print(chart,end="")
+#         else:
+#             chart=chart+i
+#             print(chart,end="")
+# convert()
+
+def occu():
+    n=input("enter a string: ")
+    q=input("search char: ")
+    n=list(n)
+
+
+
+
+
+

@@ -189,16 +189,16 @@
 #     i+=1
 # print(fact)
 
-n=int(input("num: "))
-sq=n*n
-sq=str(sq)
-m=len(sq)//2
-right=sq[:m]
-left=sq[m:]
-if int(right)+int(left)==n:
-    print("it's kaperkar number")
-else:
-    print("no")
+# n=int(input("num: "))
+# sq=n*n
+# sq=str(sq)
+# m=len(sq)//2
+# right=sq[:m]
+# left=sq[m:]
+# if int(right)+int(left)==n:
+#     print("it's kaperkar number")
+# else:
+#     print("no")
 # n = int(input("num: "))
 # sq = n*n
 # sq = str(sq)
@@ -209,11 +209,76 @@ else:
 #     print("It's Kaprekar number")
 # else:
 #     print("No")
-n=[1,2,3,2,4,1]
-out=()
+# n=[1,2,3,2,4,1]
+# out=()
+#
+# for i in n:
+#     if n.count(i)>1:
+#         out.add(i)
+#
+# print(out)
 
-for i in n:
-    if n.count(i)>1:
-        out.add(i)
+#
+# n=int(input("num"))
+# if n==1:
+#     print("it's not prime")
+# for i in (2,n):
+#     if n%i==0:
+#         print("it's not prime")
+#         break
+#     else:
+#         print("it is prime number")
+# else:
+#     print("it's not prime ")
+#
 
-print(out)
+
+
+
+
+
+
+
+# num=int(input("enter num: "))
+# if num==1:
+#     print("it not prime")
+# elif num>1:
+#     for i in range(2,num):
+#         if num%i==0:
+#             print("it not prime ")
+#             break
+#     else:
+#         print("it is prime")
+# else:
+#     print('it not prime')
+# n=5
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i>j:
+#             print(j,end=" ")
+#         else:
+#             print("",end=" ")
+#     print()
+
+# n=10
+# a=0
+# b=1
+# for i in range(1,n):
+#     print(a,end=" ")
+#     a,b=b,a+b
+
+# n='malayalam'
+# n1=n[::-1]
+# if n==n1:
+#     print(f"palindrome {n}={n1}")
+# else:
+#     print(f'not {n}!={n1}')
+# 9. reverse the order:
+n=int(input("enter num: "))
+rev=0
+i=n
+while i >0:
+    ld=i%10
+    rev=rev*10+ld
+    i=i//10
+print(rev)
