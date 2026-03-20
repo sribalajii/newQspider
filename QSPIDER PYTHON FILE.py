@@ -1619,10 +1619,15 @@
 #             print(chart,end="")
 # convert()
 
-def occu():
-    n=input("enter a string: ")
-    q=input("search char: ")
-    n=list(n)
+# def occu():
+#     n='balaji'
+#     q='a'
+#     out=""
+#     for i in n:
+#         if i==q:
+#             out+=1
+#     print(out)
+# occu()
 
 
 
