@@ -1648,14 +1648,14 @@
 #
 #     great(12,14,50)
 #
-
-def concatinating(x,y):
-    # l1=[1,2,3,4]
-    # l2=[5,6,7,8]
-    for i in y:
-        x.append(i)
-    print(x)
-concatinating([1,2,3,4],[5,6,7,8])
+# 5.
+# def concatinating(x,y):
+#     # l1=[1,2,3,4]
+#     # l2=[5,6,7,8]
+#     for i in y:
+#         x.append(i)
+#     print(x)
+# concatinating([1,2,3,4],[5,6,7,8])
 
 
 
