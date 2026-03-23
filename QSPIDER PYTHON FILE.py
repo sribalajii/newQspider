@@ -1625,10 +1625,10 @@
 #     out=""
 #     for i in n:
 #         if i==q:
-#             out+=1
+#             out+=i
 #     print(out)
 # occu()
-
+#
 
 
 
