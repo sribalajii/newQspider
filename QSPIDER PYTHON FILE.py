@@ -1600,7 +1600,7 @@
 
 
 # ***********************************[FUNCTIONS]*************************************************
-# # 1.
+# 1.
 # def bala():
 #     a=10
 #     b=20
@@ -1649,12 +1649,13 @@
 #     great(12,14,50)
 #
 
-def concatinating():
-    l1=[1,2,3,4]
-    l2=[5,6,7,8]
-    for i in range(1,9):
-        print(list(i))
-    concatinating()
+def concatinating(x,y):
+    # l1=[1,2,3,4]
+    # l2=[5,6,7,8]
+    for i in y:
+        x.append(i)
+    print(x)
+concatinating([1,2,3,4],[5,6,7,8])
 
 
 
