@@ -1659,9 +1659,10 @@
 
 # **********************************[with out argument and with return value]************************88
 
-# 6
+# 6 # return : it will terminate the code there it self and if you want return value means print function call or store it in sprate the variable
 def get():
     a=int(input("a: "))
     b=int(input("b: "))
     return a+b,a*b,a/b,a-b
 print(get())
+
