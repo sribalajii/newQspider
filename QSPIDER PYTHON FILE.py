@@ -1660,9 +1660,18 @@
 # **********************************[with out argument and with return value]************************88
 
 # 6 # return : it will terminate the code there it self and if you want return value means print function call or store it in sprate the variable
-def get():
-    a=int(input("a: "))
-    b=int(input("b: "))
-    return a+b,a*b,a/b,a-b
-print(get())
+# def get():
+#     a=int(input("a: "))
+#     b=int(input("b: "))
+#     return a+b,a*b,a/b,a-b
+# print(get())
 
+# find the sum intger in given set:
+def sumasion():
+    s={'k',2,'n',6}
+    r=0
+    for i in s:
+        if isinstance(i,int):
+            r+=i
+    return r
+print(sumasion())
