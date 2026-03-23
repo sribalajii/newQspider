@@ -1633,18 +1633,28 @@
 
 
 # wapt find first greatest number amoung three number:
-def great(a,b,c):
-    a = eval(input("enter a number n1: "))
-    b = eval(input("enter b number n2: "))
-    c = eval(input("enter c number n3: "))
-    if a > b:
-        if a > c:
-            print("a is greater")
-    else:
-        if b > c:
-            print("b is greater")
-        else:
-            print("c is greater ")
+# def great(a,b,c):
+#     a = eval(input("enter a number n1: "))
+#     b = eval(input("enter b number n2: "))
+#     c = eval(input("enter c number n3: "))
+#     if a > b:
+#         if a > c:
+#             print("a is greater")
+#     else:
+#         if b > c:
+#             print("b is greater")
+#         else:
+#             print("c is greater ")
+#
+#     great(12,14,50)
+#
 
-    great(12,14,50)
+def concatinating():
+    l1=[1,2,3,4]
+    l2=[5,6,7,8]
+    for i in range(1,9):
+        print(list(i))
+    concatinating()
+
+
 
