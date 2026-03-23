@@ -1675,3 +1675,12 @@
 #             r+=i
 #     return r
 # print(sumasion())
+
+
+# with return and with argument
+# find the initial index of the char in given string:
+def cha():
+ s='goaa'
+ v=(s.index('a'))
+ return v
+print(cha())
