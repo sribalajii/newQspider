@@ -1657,5 +1657,11 @@
 #     print(x)
 # concatinating([1,2,3,4],[5,6,7,8])
 
+# **********************************[with out argument and with return value]************************88
 
-
+# 6
+def get():
+    a=int(input("a: "))
+    b=int(input("b: "))
+    return a+b,a*b,a/b,a-b
+print(get())
