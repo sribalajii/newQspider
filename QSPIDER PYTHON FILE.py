@@ -1667,11 +1667,11 @@
 # print(get())
 
 # find the sum intger in given set:
-def sumasion():
-    s={'k',2,'n',6}
-    r=0
-    for i in s:
-        if isinstance(i,int):
-            r+=i
-    return r
-print(sumasion())
+# def sumasion():
+#     s={'k',2,'n',6}
+#     r=0
+#     for i in s:
+#         if isinstance(i,int):
+#             r+=i
+#     return r
+# print(sumasion())
