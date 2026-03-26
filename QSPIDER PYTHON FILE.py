@@ -1679,8 +1679,16 @@
 
 # with return and with argument
 # find the initial index of the char in given string:
-def cha():
- s='goaa'
- v=(s.index('a'))
- return v
-print(cha())
+# def cha():
+#  s='goaa'
+#  v=(s.index('a'))
+#  return v
+# print(cha())
+
+# wapt match the two list collections
+a={'a':1,'b':2,'c':3}
+# b=[1,2,3]
+out={}
+for i,j in a:
+    out[i]=j
+print(out)
