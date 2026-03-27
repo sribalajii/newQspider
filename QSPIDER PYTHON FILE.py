@@ -1686,9 +1686,17 @@
 # print(cha())
 
 # wapt match the two list collections
-a={'a':1,'b':2,'c':3}
-# b=[1,2,3]
-out={}
-for i,j in a:
-    out[i]=j
-print(out)
+# a={'a':1,'b':2,'c':3}
+# # b=[1,2,3]
+# out={}
+# for i,j in a:
+#     out[i]=j
+# print(out)
+
+# *******************************[recursion]********************************************
+# 1
+def fact(n):
+    if n==1 or n==0:
+        return 1
+    return n*fact(n-1)
+print(fact(4))
