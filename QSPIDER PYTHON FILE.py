@@ -1695,8 +1695,18 @@
 
 # *******************************[recursion]********************************************
 # 1
-def fact(n):
-    if n==1 or n==0:
-        return 1
-    return n*fact(n-1)
-print(fact(4))
+# def fact(n):
+#     if n==1 or n==0:
+#         return 1
+#     return n*fact(n-1)
+# print(fact(4)
+
+# 2
+def fact():
+    n = int(input("num: "))
+    for i in range(n, 0, -1):
+        continue;4
+        print(i)
+
+
+fact()
